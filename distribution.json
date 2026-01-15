@@ -1,203 +1,203 @@
 {
   "version": "1.0.0",
-  "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
+  "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "1086936373057040395",
-    "smallImageText": "Change me through Nebula",
-    "smallImageKey": "big"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
-      "id": "Demo-1.19.4",
-      "name": "Prison RP",
-      "description": "Test Enzo (Forge v45.0.9)",
-      "icon": "https://raw.githubusercontent.com/Enzo91100/launcher/refs/heads/main/7ceb2d43d78b99a6ae52eef2839f239c.png",
-      "version": "1.0.0",
+      "id": "prisonrp-1.20.1",
+      "name": "prisonrp (Minecraft 1.20.1)",
+      "description": "prisonrp Running Minecraft 1.20.1 (Forge v47.4.3)",
+      "icon": null,
+      "version": "",
       "address": "localhost:25565",
-      "minecraftVersion": "1.19.4",
+      "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "1.19.4 ",
-        "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
-        "largeImageText": "forge-vanilla"
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
-      "autoconnect": true,
+      "mainServer": false,
+      "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.19.4-45.0.9",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.3",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 7378,
-            "MD5": "567726c42a1312962ffd96af646f227d",
-            "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/lowcodelanguage/1.19.4-45.0.9/lowcodelanguage-1.19.4-45.0.9.jar"
+            "size": 7400,
+            "MD5": "0373621055c95da5574accac36b7dbb8",
+            "url": "http://localhost:8080/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.3/lowcodelanguage-1.20.1-47.4.3.jar"
           },
           "subModules": [
             {
-              "id": "1.19.4-45.0.9",
+              "id": "1.20.1-47.4.3",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 15497,
-                "MD5": "97924bf1d3bf6f2bc4acc5662a7fecc0",
-                "url": "https://helios-files.geekcorner.eu.org/repo/versions/1.19.4-forge-45.0.9/1.19.4-forge-45.0.9.json"
+                "size": 16612,
+                "MD5": "271d98d1c85eea77433582b15867165a",
+                "url": "http://localhost:8080/repo/versions/1.20.1-forge-47.4.3/1.20.1-forge-47.4.3.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.19.4-45.0.9",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.3",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 113254,
-                "MD5": "087a7175f26ebce8dee27cc75ab706a6",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/fmlcore/1.19.4-45.0.9/fmlcore-1.19.4-45.0.9.jar"
+                "size": 118914,
+                "MD5": "f6b20cc1f12b71712c2c2fb2bcc69249",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.3/fmlcore-1.20.1-47.4.3.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.19.4-45.0.9",
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.3",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16352,
-                "MD5": "85f5a466356973b9a9199f5a5b1d1a25",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/javafmllanguage/1.19.4-45.0.9/javafmllanguage-1.19.4-45.0.9.jar"
+                "size": 16856,
+                "MD5": "ba9b9b6b043b7b1dbf32a51819b1f8bb",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.3/javafmllanguage-1.20.1-47.4.3.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.19.4-45.0.9",
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.3",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 4987,
-                "MD5": "2afe8c6ba41599bbc139607e1f5bc90f",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/mclanguage/1.19.4-45.0.9/mclanguage-1.19.4-45.0.9.jar"
+                "size": 4999,
+                "MD5": "a1523e6565d5c1375bb140d5acca160d",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.3/mclanguage-1.20.1-47.4.3.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.19.4-45.0.9:universal",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.3:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2654813,
-                "MD5": "75086169e9f5f6990cd399ae352590da",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/forge/1.19.4-45.0.9/forge-1.19.4-45.0.9-universal.jar"
+                "size": 2777386,
+                "MD5": "c795310c779a99319dfc126175ca83d7",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.20.1-47.4.3/forge-1.20.1-47.4.3-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.19.4-45.0.9:client",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.3:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 5416831,
-                "MD5": "db21cc95ee603f0dc4e7bce8af5d1f5c",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/forge/1.19.4-45.0.9/forge-1.19.4-45.0.9-client.jar"
+                "size": 4840443,
+                "MD5": "d0d958e022a43fc2dd269163d2014026",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.20.1-47.4.3/forge-1.20.1-47.4.3-client.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.19.4-20230314.122934:srg",
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
               "name": "Minecraft Forge (client srg)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 18578667,
-                "MD5": "500a7127781d84a24d65f110479538f3",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraft/client/1.19.4-20230314.122934/client-1.19.4-20230314.122934-srg.jar"
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.19.4-20230314.122934:slim",
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
               "name": "Minecraft Forge (client slim)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 12410103,
-                "MD5": "764989b8230caa18e97f90799f902650",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraft/client/1.19.4-20230314.122934/client-1.19.4-20230314.122934-slim.jar"
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.19.4-20230314.122934:extra",
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
               "name": "Minecraft Forge (client extra)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 11066539,
-                "MD5": "e612fd0d646100ae60158ba37c5aa71a",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraft/client/1.19.4-20230314.122934/client-1.19.4-20230314.122934-extra.jar"
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
               },
               "subModules": []
             },
             {
-              "id": "cpw.mods:securejarhandler:2.1.6",
+              "id": "cpw.mods:securejarhandler:2.1.10",
               "name": "Minecraft Forge (securejarhandler)",
               "type": "Library",
               "artifact": {
-                "size": 87783,
-                "MD5": "8a4e7e2770d7147d7551d1f3ad835baa",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/cpw/mods/securejarhandler/2.1.6/securejarhandler-2.1.6.jar"
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.3",
+              "id": "org.ow2.asm:asm:9.7.1",
               "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 122176,
-                "MD5": "e1c3b96035117ab516ffe0de9bd696e0",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm/9.3/asm-9.3.jar"
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.3",
+              "id": "org.ow2.asm:asm-commons:9.7.1",
               "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 72716,
-                "MD5": "16e6ac17d33ad97baa415c42e9d93d38",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.3",
+              "id": "org.ow2.asm:asm-tree:9.7.1",
               "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 52669,
-                "MD5": "f087bfb911ff93957e44860de3e73c46",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.3",
+              "id": "org.ow2.asm:asm-util:9.7.1",
               "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 85682,
-                "MD5": "d6d0ac4e5c0be9a25a426c70c714b17b",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar"
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.3",
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
               "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 34276,
-                "MD5": "11e43c0220b3f6b4791b8abf7b4cc7ef",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
               }
             },
             {
@@ -207,7 +207,7 @@
               "artifact": {
                 "size": 77756,
                 "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
               }
             },
             {
@@ -217,47 +217,47 @@
               "artifact": {
                 "size": 337868,
                 "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                "url": "http://localhost:8080/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
               }
             },
             {
-              "id": "net.minecraftforge:eventbus:6.0.3",
+              "id": "net.minecraftforge:eventbus:6.0.5",
               "name": "Minecraft Forge (eventbus)",
               "type": "Library",
               "artifact": {
-                "size": 52624,
-                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
               }
             },
             {
-              "id": "net.minecraftforge:forgespi:6.0.0",
+              "id": "net.minecraftforge:forgespi:7.0.1",
               "name": "Minecraft Forge (forgespi)",
               "type": "Library",
               "artifact": {
-                "size": 32714,
-                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
               }
             },
             {
-              "id": "net.minecraftforge:coremods:5.0.1",
+              "id": "net.minecraftforge:coremods:5.2.4",
               "name": "Minecraft Forge (coremods)",
               "type": "Library",
               "artifact": {
-                "size": 24199,
-                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
               }
             },
             {
-              "id": "cpw.mods:modlauncher:10.0.8",
+              "id": "cpw.mods:modlauncher:10.0.9",
               "name": "Minecraft Forge (modlauncher)",
               "type": "Library",
               "artifact": {
-                "size": 130263,
-                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
               }
             },
             {
@@ -267,7 +267,17 @@
               "artifact": {
                 "size": 2834,
                 "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
               }
             },
             {
@@ -277,7 +287,7 @@
               "artifact": {
                 "size": 199834,
                 "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
               }
             },
             {
@@ -287,7 +297,7 @@
               "artifact": {
                 "size": 31816,
                 "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
               }
             },
             {
@@ -297,17 +307,17 @@
               "artifact": {
                 "size": 58077,
                 "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+                "url": "http://localhost:8080/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
               }
             },
             {
-              "id": "net.jodah:typetools:0.8.3",
+              "id": "net.jodah:typetools:0.6.3",
               "name": "Minecraft Forge (typetools)",
               "type": "Library",
               "artifact": {
-                "size": 15425,
-                "MD5": "ee4596e1413cc1a5e080c971d6064753",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "http://localhost:8080/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
               }
             },
             {
@@ -317,7 +327,7 @@
               "artifact": {
                 "size": 15977,
                 "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
               }
             },
             {
@@ -327,7 +337,7 @@
               "artifact": {
                 "size": 150765,
                 "MD5": "a2e7b012cd9802f83321187409174a94",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+                "url": "http://localhost:8080/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
               }
             },
             {
@@ -337,7 +347,7 @@
               "artifact": {
                 "size": 211712,
                 "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+                "url": "http://localhost:8080/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
               }
             },
             {
@@ -347,17 +357,17 @@
               "artifact": {
                 "size": 1089277,
                 "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+                "url": "http://localhost:8080/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
               }
             },
             {
-              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
               "name": "Minecraft Forge (nashorn-core)",
               "type": "Library",
               "artifact": {
-                "size": 2167288,
-                "MD5": "91e98c20afa1090c344229ce28b4c53f",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "http://localhost:8080/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
               }
             },
             {
@@ -367,7 +377,7 @@
               "artifact": {
                 "size": 17374,
                 "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
               }
             },
             {
@@ -377,7 +387,7 @@
               "artifact": {
                 "size": 15895,
                 "MD5": "9633546d299d4282ca68d10582be1c8f",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
               }
             },
             {
@@ -387,7 +397,7 @@
               "artifact": {
                 "size": 8284,
                 "MD5": "48f5255aa337344c467c0150d347813d",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+                "url": "http://localhost:8080/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
               }
             },
             {
@@ -397,40 +407,4163 @@
               "artifact": {
                 "size": 32195,
                 "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.19.4-45.0.9",
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.3",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 261271,
-                "MD5": "896da600a8508b6a41a4f804e1073b92",
-                "url": "https://helios-files.geekcorner.eu.org/repo/lib/net/minecraftforge/fmlloader/1.19.4-45.0.9/fmlloader-1.19.4-45.0.9.jar"
+                "size": 267079,
+                "MD5": "8626d77dd5b44c96743e3848319f5af3",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.3/fmlloader-1.20.1-47.4.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.3",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170518,
+                "MD5": "f685a75e85819299dafbae8b9ddaf9f3",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.3/fmlearlydisplay-1.20.1-47.4.3.jar"
               }
             }
           ]
         },
         {
-          "id": "squeek.appleskin:appleskin:2.4.3+mc1.19.4@jar",
-          "name": "AppleSkin",
+          "id": "com.blamejared:ambientenvironment:11.0.0.1@jar",
+          "name": "Ambient Environment",
           "type": "ForgeMod",
           "artifact": {
-            "size": 46976,
-            "url": "https://cr7.free.zk-web.fr/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar",
-            "MD5": "757b5e83f4c2ab0ab2a21289849edcdf"
+            "size": 7336,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar",
+            "MD5": "80870abafff093c70f437073c4c754b0"
           }
         },
         {
-          "id": "hi.txt",
-          "name": "hi.txt",
+          "id": "team.creative:ambientsounds:6.1.11@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 51722248,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+            "MD5": "78270b771d833d9f2936a2bd95a7ec21"
+          }
+        },
+        {
+          "id": "elocindev.animation_overhaul:animation_overhaul:1.3.1@jar",
+          "name": "Animation Overhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 270915,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Animation_Overhaul-forge-1.20.x-1.3.1.jar",
+            "MD5": "0e016f6094a766eb5b82c0586343f46f"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "aru.aru:ashvehicle:4.0-8.7-SNAPSHOT@jar",
+          "name": "Ashvehicle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14689164,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/ashvehicle-4.0-8.7-SNAPSHOT.jar",
+            "MD5": "f6ab05ee65f1442424153931805d6b13"
+          }
+        },
+        {
+          "id": "net.smileycorp.atlas:atlaslib:1.1.12@jar",
+          "name": "Atlas Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 124436,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Atlas%20Lib-1.20.1-1.1.12.jar",
+            "MD5": "b63616d984991ee60d313938143eda3f"
+          }
+        },
+        {
+          "id": "net.darkhax:badmobs:19.0.4@jar",
+          "name": "BadMobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10425,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/BadMobs-1.20.1-19.0.4.jar",
+            "MD5": "c82edfea81516b7f8c9607ad5b2f75d6"
+          }
+        },
+        {
+          "id": "net.capitaojob.bettercampfires:better_campfires:2.0.0@jar",
+          "name": "Better Campfires",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 34171,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/bettercampfires-2.0.0.jar",
+            "MD5": "c4f755c3cef370fcd10f7c0b894fb7ba"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:chalk:1.6.6@jar",
+          "name": "Chalk",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 320854,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/chalk-1.20.1-1.6.6.jar",
+            "MD5": "dd6d469c96e448da033e28e0bcc3a116"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:comforts:6.4.0+1.20.1@jar",
+          "name": "Comforts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 382083,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/comforts-forge-6.4.0+1.20.1.jar",
+            "MD5": "a88fcc168de1a0f9b2ae4e7cbe8a8408"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64187,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/coroutil-forge-1.20.1-1.3.7.jar",
+            "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.20.1-1.0.21@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 245618,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.21.jar",
+            "MD5": "346a9e592558c1fde772b39c10be4cdf"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.32@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1158417,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+            "MD5": "7aabe100af362d0df92d8ea1dbc2667b"
+          }
+        },
+        {
+          "id": "com.epherical:croptopia:3.0.4@jar",
+          "name": "Croptopia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2099945,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Croptopia-1.20.1-FORGE-3.0.4.jar",
+            "MD5": "c7c4e6f0ff51507ad64544991dfc7454"
+          }
+        },
+        {
+          "id": "com.lazrproductions:cuffed:1.3.9@jar",
+          "name": "Cuffed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 854729,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/optionalon/Cuffed-1.20.1-1.3.9.jar",
+            "MD5": "47c66227b88df7448f516106dd257d64"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.7@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25983,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/optionalon/cupboard-1.20.1-2.7.jar",
+            "MD5": "3620912474f47bf58d1fe5bfe133763a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
+          "id": "fuzs.diagonalfences:diagonalfences:8.1.5@jar",
+          "name": "Diagonal Fences",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 182476,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/DiagonalFences-v8.1.5-1.20.1-Forge.jar",
+            "MD5": "29bc8833f5d9b1edcb32617e16a9ec5e"
+          }
+        },
+        {
+          "id": "fuzs.diagonalwalls:diagonalwalls:8.0.4@jar",
+          "name": "Diagonal Walls",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 173567,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/DiagonalWalls-v8.0.4-1.20.1-Forge.jar",
+            "MD5": "4f0de81465cddd09bf866eb38c1922f3"
+          }
+        },
+        {
+          "id": "fuzs.diagonalwindows:diagonalwindows:8.1.5@jar",
+          "name": "Diagonal Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 183094,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/DiagonalWindows-v8.1.5-1.20.1-Forge.jar",
+            "MD5": "6a4ffa39c08847b280c66f0907b32668"
+          }
+        },
+        {
+          "id": "net.mcreator.doomsdaydecoration:doomsday_decoration:1.0.0@jar",
+          "name": "Doomsday Decoration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9658884,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/doomsday_decoration-1.1.3-forge-1.20.1.jar",
+            "MD5": "780bd21f73ed1d2c901c00ade26b2f7d"
+          }
+        },
+        {
+          "id": "atomicstryker.dynamiclights.server:dynamiclights:1.20.1.2@jar",
+          "name": "Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49564,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/dynamiclights-1.20.1.2.jar",
+            "MD5": "8ddb1fdf345c919ea74e55c50aa39a55"
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictrees:1.20.1-1.4.5@jar",
+          "name": "Dynamic Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3739337,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/DynamicTrees-1.20.1-1.4.5.jar",
+            "MD5": "ca1c133b6fafb0a278e9422d3fd65807"
+          }
+        },
+        {
+          "id": "com.corrinedev.addon:endlessammo:1.2.0@jar",
+          "name": "TACZAddonTemplate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 165237,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/endlessammo-1.2.0.jar",
+            "MD5": "588905b1c9d28f4e158389d4d791ac75"
+          }
+        },
+        {
+          "id": "com.epherical:epherolib:0.1.2@jar",
+          "name": "BOZOID",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 756864,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/EpheroLib-1.20.1-FORGE-1.2.0.jar",
+            "MD5": "f8b4d202f3fc4ffaf1bb8efd79f860bd"
+          }
+        },
+        {
+          "id": "com.vinlanx:explosionoverhaul:0.1.6.9-a@jar",
+          "name": "Explosion-Overhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61346639,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Explosion-Overhaul-0.1.6.9-a%20Forge-1.20.1.jar",
+            "MD5": "e7e4898b276a2c4e49927889ae4d1ae6"
+          }
+        },
+        {
+          "id": "com.armilp:ezvcsurvival:1.4.2@jar",
+          "name": "Voiceless Survival",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 67306,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/ezvcsurvival-forge-1.20.1-1.4.2.jar",
+            "MD5": "24ce2cfce66a8265268f9624e61a5c78"
+          }
+        },
+        {
+          "id": "me.pandamods:fallingtrees:0.13.2@jar",
+          "name": "Panda's Falling Tree's",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4025908,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
+            "MD5": "542bd503ba871bb74f3ce229ebc45048"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.7.0@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3628603,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/fancymenu_forge_3.7.0_MC_1.20.1.jar",
+            "MD5": "365e76a8d99085a1ac942c2b46125508"
+          }
+        },
+        {
+          "id": "com.accbdd:farmers_croptopia:3.0.0@jar",
+          "name": "Farmer's Croptopia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 231379,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/farmers_croptopia-1.20.1-3.0.0.jar",
+            "MD5": "6943d5630179611ca2243acf068a5223"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.9@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2978080,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.9.jar",
+            "MD5": "71e177a98e0e6f399761ad00e978d177"
+          }
+        },
+        {
+          "id": "org.thinkingstudio:forgematica:0.1.13-mc1.20.1@jar",
+          "name": "Forgematica",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 997501,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Forgematica-0.1.13-mc1.20.1.jar",
+            "MD5": "8def10203e22c87e5820ecf2efd14184"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:framework:0.7.15@jar",
+          "name": "Framework",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 309560,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/framework-forge-1.20.1-0.7.15.jar",
+            "MD5": "135716c910b1036a6dd2f0fe0bc7b03d"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.2+1.20.1+forge@jar",
+          "name": "Fzzy Config",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2275298,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/fzzy_config-0.7.2+1.20.1+forge.jar",
+            "MD5": "d82c28e78e80f5e2fbbffe4a6fbb7a76"
+          }
+        },
+        {
+          "id": "net.mcreator.gprojectdoors:g3project_doors:1.0.0@jar",
+          "name": "G3project Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1620814,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/g3project_doors-1.0.2-forge-1.20.1.jar",
+            "MD5": "552d52081224683b51cc2d26ee68e041"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.7.4@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1013210,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.7.4.jar",
+            "MD5": "13892e4f925b758498e7db2f2235da08"
+          }
+        },
+        {
+          "id": "me.xjqsh.gucci:guccivuitton:0.2.2@jar",
+          "name": "Gucci & Vuitton Attachments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1598544,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/guccivuitton-1.20.1-0.2.2.jar",
+            "MD5": "778589f50a0c4b513d43aa605d5c0125"
+          }
+        },
+        {
+          "id": "com.corrinedev:gundurability:1.8.2@jar",
+          "name": "TACZ Durability",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 533823,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/gundurability-1.8.2-all.jar",
+            "MD5": "0f3f2fd56e460ec36bfaf02e2bf725d2"
+          }
+        },
+        {
+          "id": "com.vinlanx:gunfireoverhaul:0.0.8-a@jar",
+          "name": "Gunfire Overhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3970305,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Gunfire%20Overhaul-0.0.8-a%20Forge-1.20.1.jar",
+            "MD5": "1710d9357335e43ee4d8cc1b6eb938fa"
+          }
+        },
+        {
+          "id": "com.ordana:immersive_weathering:1.20.1-2.0.5@jar",
+          "name": "Immersive Weathering",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2269048,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/immersive_weathering-1.20.1-2.0.5-forge.jar",
+            "MD5": "f424b363799c2fd29362c618c8a30bda"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.112@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1385600,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.112.jar",
+            "MD5": "c899d5b549ace1e9fa46700c778c3809"
+          }
+        },
+        {
+          "id": "com.corrinedev:jsconf:1.1.1@jar",
+          "name": "JasonConfig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17565,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/jsconf-1.1.1.jar",
+            "MD5": "9b12812822abe6e0279f1f8baea16c70"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276231,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/JustEnoughResources-1.20.1-1.4.0.247.jar",
+            "MD5": "bd7166a2e9361ef5e8b616edfa2028f4"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625185,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7193768,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
+          }
+        },
+        {
+          "id": "sfiomn.legendarysurvivaloverhaul:legendarysurvivaloverhaul:1.20.1-2.3.22.1@jar",
+          "name": "Legendary Survival Overhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3743687,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/legendarysurvivaloverhaul-1.20.1-2.3.22.1.jar",
+            "MD5": "b1019fb638cc59582f611da20c258e55"
+          }
+        },
+        {
+          "id": "net.satisfy:wildernature:1.0.6@jar",
+          "name": "[Let's Do] Wilder Nature",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2102995,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/letsdo-wildernature-forge-1.0.6.jar",
+            "MD5": "fd08892b42440837734423d70592ecdd"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.7.35.92@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 460882,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/lootr-forge-1.20-0.7.35.93.jar",
+            "MD5": "2d5374b809d9ec1d7700a194b2fd0dd5"
+          }
+        },
+        {
+          "id": "me.xjqsh:lradd:0.3.0@jar",
+          "name": "LesRaisinsAddon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42492650,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/lradd-1.20.1-0.3.0.jar",
+            "MD5": "a3710d72c75c24b8235142061f9e217c"
+          }
+        },
+        {
+          "id": "me.xjqsh:lrtactical:0.3.0@jar",
+          "name": "LesRaisins Tactical Equipments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5193935,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/lrtactical-1.20.1-0.3.0.jar",
+            "MD5": "73f94347bbc9050c0a28cb9aff3c3d26"
+          }
+        },
+        {
+          "id": "org.thinkingstudio:mafglib:0.1.14-mc1.20.1@jar",
+          "name": "MaFgLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 521709,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/MaFgLib-0.1.14-mc1.20.1.jar",
+            "MD5": "739a08ec65e3c5cdd5bfc64adc90947d"
+          }
+        },
+        {
+          "id": "net.marblednull:marbledsfirstaid:1.2.0.0@jar",
+          "name": "Marbled's First Aid",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 534925,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/marbledsfirstaid-1.20.1forge-1.2.0.0.jar",
+            "MD5": "b51b5bc8686ebc95e83312f7efadc923"
+          }
+        },
+        {
+          "id": "com.corrinedev:maxstuff:1.8.1@jar",
+          "name": "Maxstuff",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33775172,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/maxstuff-1.8.1.jar",
+            "MD5": "8452b7b2fc125e8e7f6159396ebec9e7"
+          }
+        },
+        {
+          "id": "net.marblednull:mcore:1.0.3.0@jar",
+          "name": "Marbled's Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 121205,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/mcore-1.20.1-1.0.3.0.jar",
+            "MD5": "da142d7a183dae31812590b95173915f"
+          }
+        },
+        {
+          "id": "tech.mcsp:mcsp:1.0.5@jar",
+          "name": "MCSP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2579133,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/MCSP-1.20.1-V1.0.5.jar",
+            "MD5": "b0e8996dc1024a0c2ad3c86966b8cc56"
+          }
+        },
+        {
+          "id": "com.mcwstairs.kikoz:mcwstairs:1.0.1@jar",
+          "name": "Macaw's Stairs and Balconies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 540915,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/mcw-stairs-1.0.1-1.20.1forge.jar",
+            "MD5": "ceab72622060c85e4fbb47118f0b76e9"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.2@jar",
+          "name": "Melody",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37178,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "MD5": "6b528d368f7fcbf737df28f2457cdec6"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.16.10@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1332304,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/moonlight-1.20-2.16.10-forge.jar",
+            "MD5": "0641e7fdc055c448da668274730b9087"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          }
+        },
+        {
+          "id": "net.petemc:mutantszombies:1.1.0-Forge-mc1.20.1@jar",
+          "name": "Mutants and Zombies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 498403,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/MutantsZombies-1.1.0-Forge-mc1.20.1.jar",
+            "MD5": "ac08d3672dbe26a14fad010c449be1da"
+          }
+        },
+        {
+          "id": "elocindev.necronomicon:necronomicon:1.6.0@jar",
+          "name": "Necronomicon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33251,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Necronomicon-Forge-1.6.0+1.20.1.jar",
+            "MD5": "a1f1433ea551925436e6b170ac2ff619"
+          }
+        },
+        {
+          "id": "com.technicboyman.nobz.nobabyzombies1_20_1forge:nobz:1.2@jar",
+          "name": "No Baby Zombies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8075,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/nobz-1.2.jar",
+            "MD5": "c797d150431b6fc281f8c5b9dc0b5646"
+          }
+        },
+        {
+          "id": "me.pandamods:pandalib:0.5.2@jar",
+          "name": "PandaLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 864398,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+            "MD5": "019a3540059282663ce2ed634dbfd09c"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:placebo:8.6.3@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 282474,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
+            "MD5": "13133ab9989e8474931cd7a86bd19cc5"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.20.1-1.9.1-beta.1@jar",
+          "name": "Presence Footsteps (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7080698,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+            "MD5": "e42d774ced61f8c62c58f3111aa5e3f5"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.33@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1342987,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+            "MD5": "19f23e3040eaadc7c30ae38f5a3dec68"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture.refurbished:refurbished_furniture:1.0.14@jar",
+          "name": "MrCrayfish's Furniture Mod: Refurbished",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6686700,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/refurbished_furniture-forge-1.20.1-1.0.14.jar",
+            "MD5": "cf49bb5867f7d060b82fc143e2ca0201"
+          }
+        },
+        {
+          "id": "de.sarocesch.sarosroadblocksmod:saros_road_blocks_mod:3.9@jar",
+          "name": "Saro´s Road Blocks Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1759619,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Saros-Road-Blocks-Mod-1.20.1-3.9.jar",
+            "MD5": "2979867cdcbc712862c4583723ad2522"
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.3@jar",
+          "name": "Searchables",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77732,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Searchables-forge-1.20.1-1.0.3.jar",
+            "MD5": "9f5418e9c08c18a375ef42fada4bcef2"
+          }
+        },
+        {
+          "id": "com.codinglitch:simpleradio:2.4.6.1@jar",
+          "name": "SimpleRadio",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 284128,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/optionalon/SimpleRadio-forge-1.20.1-2.4.6.1.jar",
+            "MD5": "fdaac552a1ad0d80a251fc1eaadba9e7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.flanks255:simplylight:1.20.1-1.4.6-build.50@jar",
+          "name": "Simply Light",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 555625,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/simplylight-1.20.1-1.4.6-build.50.jar",
+            "MD5": "ce3cb1633a11c82613b547dff686aee8"
+          }
+        },
+        {
+          "id": "net.mcreator:simplytents:1.0.0@jar",
+          "name": "SimplyTents",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 544228,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/simplytents-1.0.0-forge-1.20.1.jar",
+            "MD5": "3b0d1766fd7c92c1ade868c6184ed739"
+          }
+        },
+        {
+          "id": "com.atsuishio:superbwarfare:0.8.7@jar",
+          "name": "Superb Warfare",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23552579,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/superbwarfare-1.20.1-0.8.7-final-d6ea9a72b.jar",
+            "MD5": "78d611f03f839cf511a2533528d0e8df"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206584,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+            "MD5": "cbece61946d4e059e90806c19dd66082"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.18@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 515362,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+            "MD5": "6559d43627646f16fbe02de085e98d5c"
+          }
+        },
+        {
+          "id": "net.mcreator.survivalinstinct:survival_instinct:1.0.1@jar",
+          "name": "Survival Instinct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1691940,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/survival_instinct-1.0.1-forge-1.20.1.jar",
+            "MD5": "54a68ad552f1f5b03dc9b2a6f1b3840d"
+          }
+        },
+        {
+          "id": "com.corrinedev:tacticalmovement:1.0.0@jar",
+          "name": "Tactical Movement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9460,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/tacticalmovement-1.0.0.jar",
+            "MD5": "17a5d8c5b188ce9d90c8e002ab4740f5"
+          }
+        },
+        {
+          "id": "com.tacz.guns:tacz:1.1.6-hotfix@jar",
+          "name": "Timeless & Classics Guns: Zero",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47826468,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/tacz-1.20.1-1.1.6-hotfix.jar",
+            "MD5": "51636447584a75f8d2db2fb930d110b1"
+          }
+        },
+        {
+          "id": "net.smileycorp:hordes:1.5.4c@jar",
+          "name": "The Hordes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 586378,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/The-Hordes-1.20.1-1.5.4c.jar",
+            "MD5": "65f9e9134a49fa0d942526d9460f61c5"
+          }
+        },
+        {
+          "id": "com.supermartijn642:trashcans:1.0.18b@jar",
+          "name": "Trash Cans",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158164,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/trashcans-1.0.18b-forge-mc1.20.jar",
+            "MD5": "96b30739859465a3a3f8d1d4a6c9d48c"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.35@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8646989,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.35.jar",
+            "MD5": "35334e72794c1b612bb9b2290dd8a27c"
+          }
+        },
+        {
+          "id": "tech.vvp:vvp:0.1.7@jar",
+          "name": "VVP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11084098,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/vvp-0.1.7.jar",
+            "MD5": "6211fffd716c7b6e60c032727b17dd5b"
+          }
+        },
+        {
+          "id": "com.raiiiden:warborn:2.3.3@jar",
+          "name": "Warborn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1703964,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/warborn-1.20.1-2.3.3.jar",
+            "MD5": "464d65539774d41e654323716db0a071"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5825402,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.10@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1723029,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Xaeros_Minimap_25.2.10_Forge_1.20.jar",
+            "MD5": "2b2bfaf3a1872b83c57aaa51c73f10d9"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.39.12@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 960799,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/XaerosWorldMap_1.39.12_Forge_1.20.jar",
+            "MD5": "002d9a661be7e982db177d7b0fc8d49e"
+          }
+        },
+        {
+          "id": "com.corosus:zombieawareness:1.20.1-1.13.1@jar",
+          "name": "Zombie Awareness",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 291139,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/zombieawareness-1.20.1-1.13.1.jar",
+            "MD5": "bf52632df04fceed82ad7073b8d14240"
+          }
+        },
+        {
+          "id": "ambientsounds-client.json",
+          "name": "ambientsounds-client.json",
           "type": "File",
           "artifact": {
-            "size": 147,
-            "url": "https://helios-files.geekcorner.eu.org/servers/Demo-1.19.4/files/hi.txt",
-            "MD5": "e752096b159035a3ffaf396fb111b837",
-            "path": "hi.txt"
+            "size": 4083,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/ambientsounds-client.json",
+            "MD5": "8b9d34e4e54d1e447ca96445d6ee89b6",
+            "path": "config/ambientsounds-client.json"
+          }
+        },
+        {
+          "id": "animations.json5",
+          "name": "animations.json5",
+          "type": "File",
+          "artifact": {
+            "size": 3227,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/animation_overhaul/animations.json5",
+            "MD5": "eebf6d97f91a317e5f24effc7e2527c0",
+            "path": "config/animation_overhaul/animations.json5"
+          }
+        },
+        {
+          "id": "local_player.json5",
+          "name": "local_player.json5",
+          "type": "File",
+          "artifact": {
+            "size": 285,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/animation_overhaul/local_player.json5",
+            "MD5": "80e26e0601dfd6c21b7c8ad741a16917",
+            "path": "config/animation_overhaul/local_player.json5"
+          }
+        },
+        {
+          "id": "badmobs-common.toml",
+          "name": "badmobs-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 109060,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/badmobs-common.toml",
+            "MD5": "3e28058b7673e47a91ab932d9039a722",
+            "path": "config/badmobs-common.toml"
+          }
+        },
+        {
+          "id": "chalk-client.toml",
+          "name": "chalk-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 449,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/chalk-client.toml",
+            "MD5": "d7c3070e2977bb75e3e342ea63d6c3cf",
+            "path": "config/chalk-client.toml"
+          }
+        },
+        {
+          "id": "chalk-common.toml",
+          "name": "chalk-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1247,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/chalk-common.toml",
+            "MD5": "413004ea3a8d9c95d5f94e0ffec2ba0f",
+            "path": "config/chalk-common.toml"
+          }
+        },
+        {
+          "id": "comforts-server.toml",
+          "name": "comforts-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1854,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/comforts-server.toml",
+            "MD5": "6bcc440943d65f953526c48dfc50338f",
+            "path": "config/comforts-server.toml"
+          }
+        },
+        {
+          "id": "General.toml",
+          "name": "General.toml",
+          "type": "File",
+          "artifact": {
+            "size": 133,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/CoroUtil/General.toml",
+            "MD5": "8f9eed7bc02c6d45d54ea813d5ddf1cc",
+            "path": "config/CoroUtil/General.toml"
+          }
+        },
+        {
+          "id": "croptopia_v3.conf",
+          "name": "croptopia_v3.conf",
+          "type": "File",
+          "artifact": {
+            "size": 13630,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/croptopia/croptopia_v3.conf",
+            "MD5": "38415c0fb8215562510437175ec33986",
+            "path": "config/croptopia/croptopia_v3.conf"
+          }
+        },
+        {
+          "id": "curios-client.toml",
+          "name": "curios-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 706,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/curios-client.toml",
+            "MD5": "67aaec1814836fed2d3e021c29ef6848",
+            "path": "config/curios-client.toml"
+          }
+        },
+        {
+          "id": "curios-common.toml",
+          "name": "curios-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/curios-common.toml",
+            "MD5": "4e1978c603823135e91f736983a96649",
+            "path": "config/curios-common.toml"
+          }
+        },
+        {
+          "id": "dynamiclights.cfg",
+          "name": "dynamiclights.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 65,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/dynamiclights.cfg",
+            "MD5": "7c36da9e1d8a3a60d125ff8f94f6970c",
+            "path": "config/dynamiclights.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_droppeditems.cfg",
+          "name": "dynamiclights_droppeditems.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/dynamiclights_droppeditems.cfg",
+            "MD5": "01500dbf7ed40ee445993ba6968ddce6",
+            "path": "config/dynamiclights_droppeditems.cfg"
+          }
+        },
+        {
+          "id": "dynamiclights_selflight.cfg",
+          "name": "dynamiclights_selflight.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/dynamiclights_selflight.cfg",
+            "MD5": "01500dbf7ed40ee445993ba6968ddce6",
+            "path": "config/dynamiclights_selflight.cfg"
+          }
+        },
+        {
+          "id": "dynamictrees-common.toml",
+          "name": "dynamictrees-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1444,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/dynamictrees-common.toml",
+            "MD5": "228463de5e25aa11fb719fbd05b973e8",
+            "path": "config/dynamictrees-common.toml"
+          }
+        },
+        {
+          "id": "explosionoverhaul-client.toml",
+          "name": "explosionoverhaul-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2886,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/explosionoverhaul-client.toml",
+            "MD5": "8af1e4ac88a7eed5e0ea19055c7c1f3b",
+            "path": "config/explosionoverhaul-client.toml"
+          }
+        },
+        {
+          "id": "explosionoverhaul-common.toml",
+          "name": "explosionoverhaul-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6556,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/explosionoverhaul-common.toml",
+            "MD5": "d3485742a84529c68aaa459723500d01",
+            "path": "config/explosionoverhaul-common.toml"
+          }
+        },
+        {
+          "id": "sounds.toml",
+          "name": "sounds.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3086,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/ezvcsurvival/sounds.toml",
+            "MD5": "194b852b511dbe90086405babe03bd41",
+            "path": "config/ezvcsurvival/sounds.toml"
+          }
+        },
+        {
+          "id": "voices.toml",
+          "name": "voices.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1698,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/ezvcsurvival/voices.toml",
+            "MD5": "a55f7702ce0b96aa3ca563fa4826dfef",
+            "path": "config/ezvcsurvival/voices.toml"
+          }
+        },
+        {
+          "id": "fallingtrees_client.json",
+          "name": "fallingtrees_client.json",
+          "type": "File",
+          "artifact": {
+            "size": 233,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fallingtrees_client.json",
+            "MD5": "eab6b98fb8d93bfacb993f03dd9e2bd4",
+            "path": "config/fallingtrees_client.json"
+          }
+        },
+        {
+          "id": "fallingtrees_common.json",
+          "name": "fallingtrees_common.json",
+          "type": "File",
+          "artifact": {
+            "size": 1701,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fallingtrees_common.json",
+            "MD5": "218c1738dcd2563d78941c1e4d9c07ae",
+            "path": "config/fallingtrees_common.json"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 2916436,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/assets/background.png",
+            "MD5": "f71252a8b97f6f70dd4114a10d6e6a4a",
+            "path": "config/fancymenu/assets/background.png"
+          }
+        },
+        {
+          "id": "button.png",
+          "name": "button.png",
+          "type": "File",
+          "artifact": {
+            "size": 4521,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/assets/button.png",
+            "MD5": "45e121f2def717cc2a0e9ecb49ccb2f7",
+            "path": "config/fancymenu/assets/button.png"
+          }
+        },
+        {
+          "id": "button2.png",
+          "name": "button2.png",
+          "type": "File",
+          "artifact": {
+            "size": 4282,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/assets/button2.png",
+            "MD5": "eba6143a6b2e57df28927f447b9b6bb9",
+            "path": "config/fancymenu/assets/button2.png"
+          }
+        },
+        {
+          "id": "icon16.png",
+          "name": "icon16.png",
+          "type": "File",
+          "artifact": {
+            "size": 655,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/assets/icon16.png",
+            "MD5": "173557012676a844ff58ecd30fcef208",
+            "path": "config/fancymenu/assets/icon16.png"
+          }
+        },
+        {
+          "id": "icon32.icns",
+          "name": "icon32.icns",
+          "type": "File",
+          "artifact": {
+            "size": 4042,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/assets/icon32.icns",
+            "MD5": "d82ef85483a829cf7067c3cfd8f91cce",
+            "path": "config/fancymenu/assets/icon32.icns"
+          }
+        },
+        {
+          "id": "icon32.png",
+          "name": "icon32.png",
+          "type": "File",
+          "artifact": {
+            "size": 1040,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/assets/icon32.png",
+            "MD5": "d1e7771b6cb5f5196146723b9c5e8896",
+            "path": "config/fancymenu/assets/icon32.png"
+          }
+        },
+        {
+          "id": "ologo.png",
+          "name": "ologo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1292715,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/assets/ologo.png",
+            "MD5": "230595a43c9b0221417288d763790dba",
+            "path": "config/fancymenu/assets/ologo.png"
+          }
+        },
+        {
+          "id": "skin.png",
+          "name": "skin.png",
+          "type": "File",
+          "artifact": {
+            "size": 3423,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/assets/skin.png",
+            "MD5": "1f7c61d5a35b3891b06f67ff4e4a75a4",
+            "path": "config/fancymenu/assets/skin.png"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 128,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "eaa148ce9648c5a1020e9936f117ec12",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "menu.txt",
+          "name": "menu.txt",
+          "type": "File",
+          "artifact": {
+            "size": 33743,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/customization/menu.txt",
+            "MD5": "cdec8790226862f9263c64ed4e45a6d8",
+            "path": "config/fancymenu/customization/menu.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 26597,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/customization/options.txt",
+            "MD5": "dc44a654b0ccf2482cfd95ff6be772f0",
+            "path": "config/fancymenu/customization/options.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 197,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2162,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/options.txt",
+            "MD5": "67bde1da6aaaf0896650635b5747bbe8",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 4133,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "3981f37966b00a80e31aac89169be280",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 4135,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "adfba137b3d62c50a5186a4f6523a72a",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "farmersdelight-client.toml",
+          "name": "farmersdelight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/farmersdelight-client.toml",
+            "MD5": "b00b8b023174e9f208b0a7649c87ad7b",
+            "path": "config/farmersdelight-client.toml"
+          }
+        },
+        {
+          "id": "farmersdelight-common.toml",
+          "name": "farmersdelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4540,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/farmersdelight-common.toml",
+            "MD5": "82ba75bba9643dc70a6f985a6a4396da",
+            "path": "config/farmersdelight-common.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1148,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fml.toml",
+            "MD5": "783d5f5e55fc91951e5e234d72980761",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1628,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forge-client.toml",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "forgematica_7_days.json",
+          "name": "forgematica_7_days.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_7_days.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/forgematica/forgematica_7_days.json"
+          }
+        },
+        {
+          "id": "forgematica_7_days_dim_minecraft_overworld.json",
+          "name": "forgematica_7_days_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 762,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_7_days_dim_minecraft_overworld.json",
+            "MD5": "8dfe316c06da34825e3fc7d703cb919c",
+            "path": "config/forgematica/forgematica_7_days_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "forgematica_amberlight_city_v3_apocalypse.json",
+          "name": "forgematica_amberlight_city_v3_apocalypse.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_amberlight_city_v3_apocalypse.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/forgematica/forgematica_amberlight_city_v3_apocalypse.json"
+          }
+        },
+        {
+          "id": "forgematica_amberlight_city_v3_apocalypse_dim_minecraft_overworld.json",
+          "name": "forgematica_amberlight_city_v3_apocalypse_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 765,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_amberlight_city_v3_apocalypse_dim_minecraft_overworld.json",
+            "MD5": "eaec7a5a6e09303de3eb177e77d7071f",
+            "path": "config/forgematica/forgematica_amberlight_city_v3_apocalypse_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "forgematica_apocalypsynew.json",
+          "name": "forgematica_apocalypsynew.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_apocalypsynew.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/forgematica/forgematica_apocalypsynew.json"
+          }
+        },
+        {
+          "id": "forgematica_apocalypsynew_dim_minecraft_overworld.json",
+          "name": "forgematica_apocalypsynew_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 762,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_apocalypsynew_dim_minecraft_overworld.json",
+            "MD5": "8dfe316c06da34825e3fc7d703cb919c",
+            "path": "config/forgematica/forgematica_apocalypsynew_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "forgematica_exaltez.json",
+          "name": "forgematica_exaltez.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_exaltez.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/forgematica/forgematica_exaltez.json"
+          }
+        },
+        {
+          "id": "forgematica_exaltez_dim_minecraft_overworld.json",
+          "name": "forgematica_exaltez_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 765,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_exaltez_dim_minecraft_overworld.json",
+            "MD5": "eaec7a5a6e09303de3eb177e77d7071f",
+            "path": "config/forgematica/forgematica_exaltez_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "forgematica_exaltez_lab_test.json",
+          "name": "forgematica_exaltez_lab_test.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_exaltez_lab_test.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/forgematica/forgematica_exaltez_lab_test.json"
+          }
+        },
+        {
+          "id": "forgematica_exaltez_lab_test_dim_minecraft_overworld.json",
+          "name": "forgematica_exaltez_lab_test_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 765,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_exaltez_lab_test_dim_minecraft_overworld.json",
+            "MD5": "eaec7a5a6e09303de3eb177e77d7071f",
+            "path": "config/forgematica/forgematica_exaltez_lab_test_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "forgematica_generated_world.json",
+          "name": "forgematica_generated_world.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_generated_world.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/forgematica/forgematica_generated_world.json"
+          }
+        },
+        {
+          "id": "forgematica_generated_world_dim_minecraft_overworld.json",
+          "name": "forgematica_generated_world_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 745,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_generated_world_dim_minecraft_overworld.json",
+            "MD5": "948e3340555d186c38bc4f7ee8d056a9",
+            "path": "config/forgematica/forgematica_generated_world_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "forgematica_reel.json",
+          "name": "forgematica_reel.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_reel.json",
+            "MD5": "1b4c08b793b25ffcaa34db0efd02c76f",
+            "path": "config/forgematica/forgematica_reel.json"
+          }
+        },
+        {
+          "id": "forgematica_reel_dim_minecraft_overworld.json",
+          "name": "forgematica_reel_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 2949,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_reel_dim_minecraft_overworld.json",
+            "MD5": "3710cca6af4247598ac35c9482f49d11",
+            "path": "config/forgematica/forgematica_reel_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "forgematica_wasted.json",
+          "name": "forgematica_wasted.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_wasted.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/forgematica/forgematica_wasted.json"
+          }
+        },
+        {
+          "id": "forgematica_wasted_dim_minecraft_overworld.json",
+          "name": "forgematica_wasted_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 745,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica_wasted_dim_minecraft_overworld.json",
+            "MD5": "948e3340555d186c38bc4f7ee8d056a9",
+            "path": "config/forgematica/forgematica_wasted_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "forgematica__2mc_zombie_apocalypse__f___4update__17_1.json",
+          "name": "forgematica__2mc_zombie_apocalypse__f___4update__17_1.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica__2mc_zombie_apocalypse__f___4update__17_1.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/forgematica/forgematica__2mc_zombie_apocalypse__f___4update__17_1.json"
+          }
+        },
+        {
+          "id": "forgematica__2mc_zombie_apocalypse__f___4update__17_1_dim_minecraft_overworld.json",
+          "name": "forgematica__2mc_zombie_apocalypse__f___4update__17_1_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 761,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica__2mc_zombie_apocalypse__f___4update__17_1_dim_minecraft_overworld.json",
+            "MD5": "4dda7df60354440da3d23f122949f30c",
+            "path": "config/forgematica/forgematica__2mc_zombie_apocalypse__f___4update__17_1_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "forgematica__4_l_thelastofus__adventure_map_.json",
+          "name": "forgematica__4_l_thelastofus__adventure_map_.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica__4_l_thelastofus__adventure_map_.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/forgematica/forgematica__4_l_thelastofus__adventure_map_.json"
+          }
+        },
+        {
+          "id": "forgematica__4_l_thelastofus__adventure_map__dim_minecraft_overworld.json",
+          "name": "forgematica__4_l_thelastofus__adventure_map__dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 745,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica/forgematica__4_l_thelastofus__adventure_map__dim_minecraft_overworld.json",
+            "MD5": "948e3340555d186c38bc4f7ee8d056a9",
+            "path": "config/forgematica/forgematica__4_l_thelastofus__adventure_map__dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "forgematica.json",
+          "name": "forgematica.json",
+          "type": "File",
+          "artifact": {
+            "size": 9193,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/forgematica.json",
+            "MD5": "e16872b6ac1f5df7620cb26ceb30c6e8",
+            "path": "config/forgematica.json"
+          }
+        },
+        {
+          "id": "keybinds.toml",
+          "name": "keybinds.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6403,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/fzzy_config/keybinds.toml",
+            "MD5": "db29914636f6e1455464345f8e91d353",
+            "path": "config/fzzy_config/keybinds.toml"
+          }
+        },
+        {
+          "id": "gundurability-common.json",
+          "name": "gundurability-common.json",
+          "type": "File",
+          "artifact": {
+            "size": 2043,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/gundurability-common.json",
+            "MD5": "0fe6f6087aeb1af01ba1c2fb68c0a339",
+            "path": "config/gundurability-common.json"
+          }
+        },
+        {
+          "id": "gunfireoverhaul-common.toml",
+          "name": "gunfireoverhaul-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2501,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/gunfireoverhaul-common.toml",
+            "MD5": "a64db01392714749985364ab64105fa3",
+            "path": "config/gunfireoverhaul-common.toml"
+          }
+        },
+        {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 1565,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/lang/en_us.json",
+            "MD5": "ab1f120d0d3ac24fd9c8a75dee6bd7a5",
+            "path": "config/hordes/assets/hordes/lang/en_us.json"
+          }
+        },
+        {
+          "id": "ru_ru.json",
+          "name": "ru_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 2049,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/lang/ru_ru.json",
+            "MD5": "7663c080efd258b0e3c3f1337f4d08be",
+            "path": "config/hordes/assets/hordes/lang/ru_ru.json"
+          }
+        },
+        {
+          "id": "zh_cn.json",
+          "name": "zh_cn.json",
+          "type": "File",
+          "artifact": {
+            "size": 1560,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/lang/zh_cn.json",
+            "MD5": "25c636c9d92fc74e878a38f1df659620",
+            "path": "config/hordes/assets/hordes/lang/zh_cn.json"
+          }
+        },
+        {
+          "id": "horde_spawn.ogg",
+          "name": "horde_spawn.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 54899,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/sounds/horde_spawn.ogg",
+            "MD5": "458e92d8b7393454cfff5aa3775f3348",
+            "path": "config/hordes/assets/hordes/sounds/horde_spawn.ogg"
+          }
+        },
+        {
+          "id": "sounds.json",
+          "name": "sounds.json",
+          "type": "File",
+          "artifact": {
+            "size": 567,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/sounds.json",
+            "MD5": "f7fcd315cb3fd21834c034cd592c2c17",
+            "path": "config/hordes/assets/hordes/sounds.json"
+          }
+        },
+        {
+          "id": "drowned_player_outer_layer.png",
+          "name": "drowned_player_outer_layer.png",
+          "type": "File",
+          "artifact": {
+            "size": 4199,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/entity/layer/drowned_player_outer_layer.png",
+            "MD5": "2c4e9a2df478157e15935b99ce08d5bc",
+            "path": "config/hordes/assets/hordes/textures/entity/layer/drowned_player_outer_layer.png"
+          }
+        },
+        {
+          "id": "husk_player_outer_layer.png",
+          "name": "husk_player_outer_layer.png",
+          "type": "File",
+          "artifact": {
+            "size": 396,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/entity/layer/husk_player_outer_layer.png",
+            "MD5": "a0176a4b663227760d2941f9755000f8",
+            "path": "config/hordes/assets/hordes/textures/entity/layer/husk_player_outer_layer.png"
+          }
+        },
+        {
+          "id": "zombie_player_outer_layer.png",
+          "name": "zombie_player_outer_layer.png",
+          "type": "File",
+          "artifact": {
+            "size": 6208,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/entity/layer/zombie_player_outer_layer.png",
+            "MD5": "82dcd79f9be8d037cd9029dff702139e",
+            "path": "config/hordes/assets/hordes/textures/entity/layer/zombie_player_outer_layer.png"
+          }
+        },
+        {
+          "id": "zombie_evoker.png",
+          "name": "zombie_evoker.png",
+          "type": "File",
+          "artifact": {
+            "size": 1927,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_evoker.png",
+            "MD5": "956dc13d25a512b4f5050a6461b5b6fd",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_evoker.png"
+          }
+        },
+        {
+          "id": "zombie_illusioner.png",
+          "name": "zombie_illusioner.png",
+          "type": "File",
+          "artifact": {
+            "size": 2475,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_illusioner.png",
+            "MD5": "c8cd15ad9eb2967a5524b42998bfd83a",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_illusioner.png"
+          }
+        },
+        {
+          "id": "zombie_pillager.png",
+          "name": "zombie_pillager.png",
+          "type": "File",
+          "artifact": {
+            "size": 2169,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_pillager.png",
+            "MD5": "841e8710e4ff1c448ef0aee8fa92eb8e",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_pillager.png"
+          }
+        },
+        {
+          "id": "zombie_vindicator.png",
+          "name": "zombie_vindicator.png",
+          "type": "File",
+          "artifact": {
+            "size": 2140,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_vindicator.png",
+            "MD5": "1494775f61da7222198efeec0fe3e694",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_vindicator.png"
+          }
+        },
+        {
+          "id": "zombie_wandering_trader.png",
+          "name": "zombie_wandering_trader.png",
+          "type": "File",
+          "artifact": {
+            "size": 2378,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_wandering_trader.png",
+            "MD5": "202e48c0fc05b86602755e3cbb518b53",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_wandering_trader.png"
+          }
+        },
+        {
+          "id": "zombie_witch.png",
+          "name": "zombie_witch.png",
+          "type": "File",
+          "artifact": {
+            "size": 2422,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombie_witch.png",
+            "MD5": "798e020f95f64cdcf5ae6f05dad9635c",
+            "path": "config/hordes/assets/hordes/textures/entity/zombie_witch.png"
+          }
+        },
+        {
+          "id": "zombified_piglin_brute.png",
+          "name": "zombified_piglin_brute.png",
+          "type": "File",
+          "artifact": {
+            "size": 3707,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/entity/zombified_piglin_brute.png",
+            "MD5": "2d6b57d8f66a7ed2db57f5546936206d",
+            "path": "config/hordes/assets/hordes/textures/entity/zombified_piglin_brute.png"
+          }
+        },
+        {
+          "id": "cure_list.png",
+          "name": "cure_list.png",
+          "type": "File",
+          "artifact": {
+            "size": 913,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/gui/jei/cure_list.png",
+            "MD5": "5bdf4220e60bc13e83be7d59907a5f32",
+            "path": "config/hordes/assets/hordes/textures/gui/jei/cure_list.png"
+          }
+        },
+        {
+          "id": "immunity.png",
+          "name": "immunity.png",
+          "type": "File",
+          "artifact": {
+            "size": 397,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/mob_effect/immunity.png",
+            "MD5": "c4b9b1585b74a8e42990ca58f94207d7",
+            "path": "config/hordes/assets/hordes/textures/mob_effect/immunity.png"
+          }
+        },
+        {
+          "id": "infected.png",
+          "name": "infected.png",
+          "type": "File",
+          "artifact": {
+            "size": 531,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/mob_effect/infected.png",
+            "MD5": "7c66fe80c8672c0e8b214d2ae9dec51c",
+            "path": "config/hordes/assets/hordes/textures/mob_effect/infected.png"
+          }
+        },
+        {
+          "id": "infected.png.mcmeta",
+          "name": "infected.png.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 76,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/assets/hordes/textures/mob_effect/infected.png.mcmeta",
+            "MD5": "7c11a8c3228617a8824b20d297493b79",
+            "path": "config/hordes/assets/hordes/textures/mob_effect/infected.png.mcmeta"
+          }
+        },
+        {
+          "id": "immune_wearables.json",
+          "name": "immune_wearables.json",
+          "type": "File",
+          "artifact": {
+            "size": 1774,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/horde_data/immune_wearables.json",
+            "MD5": "1e4bdee53af839f3c6200134a1671840",
+            "path": "config/hordes/data/hordes/horde_data/immune_wearables.json"
+          }
+        },
+        {
+          "id": "immunity_items.json",
+          "name": "immunity_items.json",
+          "type": "File",
+          "artifact": {
+            "size": 78,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/horde_data/immunity_items.json",
+            "MD5": "93552d2f89711afb1a27357e5f1b0939",
+            "path": "config/hordes/data/hordes/horde_data/immunity_items.json"
+          }
+        },
+        {
+          "id": "infection_conversions.json",
+          "name": "infection_conversions.json",
+          "type": "File",
+          "artifact": {
+            "size": 2419,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/horde_data/infection_conversions.json",
+            "MD5": "705a234dea3d209812edf349849853c6",
+            "path": "config/hordes/data/hordes/horde_data/infection_conversions.json"
+          }
+        },
+        {
+          "id": "default.json",
+          "name": "default.json",
+          "type": "File",
+          "artifact": {
+            "size": 1082,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/horde_data/scripts/default.json",
+            "MD5": "e4ec9e412ac524cae8a34b505ddce2eb",
+            "path": "config/hordes/data/hordes/horde_data/scripts/default.json"
+          }
+        },
+        {
+          "id": "default.json",
+          "name": "default.json",
+          "type": "File",
+          "artifact": {
+            "size": 483,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/horde_data/tables/default.json",
+            "MD5": "3dab3f2ff75feca7585b57fe3811c946",
+            "path": "config/hordes/data/hordes/horde_data/tables/default.json"
+          }
+        },
+        {
+          "id": "drowned.json",
+          "name": "drowned.json",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/horde_data/tables/drowned.json",
+            "MD5": "fca5cca4c9381cb5dac1af7629c91173",
+            "path": "config/hordes/data/hordes/horde_data/tables/drowned.json"
+          }
+        },
+        {
+          "id": "illagers.json",
+          "name": "illagers.json",
+          "type": "File",
+          "artifact": {
+            "size": 859,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/horde_data/tables/illagers.json",
+            "MD5": "113b12a0137a388b23a1717cf72798da",
+            "path": "config/hordes/data/hordes/horde_data/tables/illagers.json"
+          }
+        },
+        {
+          "id": "mixed_mobs.json",
+          "name": "mixed_mobs.json",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/horde_data/tables/mixed_mobs.json",
+            "MD5": "b46f28c0d2975abd1daf3036488fc002",
+            "path": "config/hordes/data/hordes/horde_data/tables/mixed_mobs.json"
+          }
+        },
+        {
+          "id": "skeletons.json",
+          "name": "skeletons.json",
+          "type": "File",
+          "artifact": {
+            "size": 601,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/horde_data/tables/skeletons.json",
+            "MD5": "f1a1e1db94ebeac41329a74b5f61a8bf",
+            "path": "config/hordes/data/hordes/horde_data/tables/skeletons.json"
+          }
+        },
+        {
+          "id": "infection_entities.json",
+          "name": "infection_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 306,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/tags/entity_types/infection_entities.json",
+            "MD5": "13149c9b11a91deb31bb7568360d39f4",
+            "path": "config/hordes/data/hordes/tags/entity_types/infection_entities.json"
+          }
+        },
+        {
+          "id": "infection_cures.json",
+          "name": "infection_cures.json",
+          "type": "File",
+          "artifact": {
+            "size": 116,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/tags/items/infection_cures.json",
+            "MD5": "ed074b01c822974569d960a994756479",
+            "path": "config/hordes/data/hordes/tags/items/infection_cures.json"
+          }
+        },
+        {
+          "id": "husk_player_spawn_biomes.json",
+          "name": "husk_player_spawn_biomes.json",
+          "type": "File",
+          "artifact": {
+            "size": 100,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/data/hordes/tags/worldgen/biome/husk_player_spawn_biomes.json",
+            "MD5": "ee29a27bae0f6e97e63caa7a7fec17fe",
+            "path": "config/hordes/data/hordes/tags/worldgen/biome/husk_player_spawn_biomes.json"
+          }
+        },
+        {
+          "id": "hordes-info.json",
+          "name": "hordes-info.json",
+          "type": "File",
+          "artifact": {
+            "size": 494,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/hordes-info.json",
+            "MD5": "77736c28140b8959f60129984012823e",
+            "path": "config/hordes/hordes-info.json"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes/pack.mcmeta",
+            "MD5": "2ed28287f3096dc731c763e2871d82dc",
+            "path": "config/hordes/pack.mcmeta"
+          }
+        },
+        {
+          "id": "hordes-client.toml",
+          "name": "hordes-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1605,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes-client.toml",
+            "MD5": "e1e23e060820a676caf3964f9d1baae9",
+            "path": "config/hordes-client.toml"
+          }
+        },
+        {
+          "id": "hordes-common.toml",
+          "name": "hordes-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5728,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/hordes-common.toml",
+            "MD5": "ca2948542d740e891b9e8940d71dbcbe",
+            "path": "config/hordes-common.toml"
+          }
+        },
+        {
+          "id": "immersive_weathering-client.toml",
+          "name": "immersive_weathering-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 298,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/immersive_weathering-client.toml",
+            "MD5": "0ccfda2c73ca9d40afa2abbbbcabfd17",
+            "path": "config/immersive_weathering-client.toml"
+          }
+        },
+        {
+          "id": "immersive_weathering-common.toml",
+          "name": "immersive_weathering-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2449,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/immersive_weathering-common.toml",
+            "MD5": "2572118008b7563f0af452ab51a20de4",
+            "path": "config/immersive_weathering-common.toml"
+          }
+        },
+        {
+          "id": "blacklist.cfg",
+          "name": "blacklist.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/jei/blacklist.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/jei/blacklist.cfg"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 553,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "60813e462a909f663412dba42b9d8f07",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "9256ba0b170fac4934f83a4e789d14a8",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 7991,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/jei/jei-client.ini",
+            "MD5": "81c1f04ca66332819d0805e5323f3e4a",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1338,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/jei/jei-colors.ini",
+            "MD5": "54322062602d3aabb6b11455e07de765",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 918,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/jei/jei-debug.ini",
+            "MD5": "4dd10e2f07441d4820fe65e804aac24c",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 463,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "457dca8722dc66e695196c24fba7875f",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1226,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "806a8db885e7446c8e78d5aac0b05950",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "jeresources-common.toml",
+          "name": "jeresources-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/jeresources-common.toml",
+            "MD5": "b8403bd156cd5a1adbeca3850c42384f",
+            "path": "config/jeresources-common.toml"
+          }
+        },
+        {
+          "id": "jeresources.toml",
+          "name": "jeresources.toml",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/jeresources.toml",
+            "MD5": "832deacf307999a65c4a3bc40ab0dfa7",
+            "path": "config/jeresources.toml"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/konkrete/locals/de_de.local",
+            "MD5": "3aac3df2519057d2305f894c37771e30",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/konkrete/locals/en_us.local",
+            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/konkrete/locals/pl_pl.local",
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/konkrete/locals/pt_br.local",
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "legendarysurvivaloverhaul-client.toml",
+          "name": "legendarysurvivaloverhaul-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4957,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml",
+            "MD5": "598daef1e28f958ecf1f6b7834a9c9ad",
+            "path": "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
+          }
+        },
+        {
+          "id": "legendarysurvivaloverhaul-common-1.toml.bak",
+          "name": "legendarysurvivaloverhaul-common-1.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 32900,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common-1.toml.bak",
+            "MD5": "e41a7593679414ccac4d8638c2248714",
+            "path": "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common-1.toml.bak"
+          }
+        },
+        {
+          "id": "legendarysurvivaloverhaul-common-2.toml.bak",
+          "name": "legendarysurvivaloverhaul-common-2.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 32900,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common-2.toml.bak",
+            "MD5": "e41a7593679414ccac4d8638c2248714",
+            "path": "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common-2.toml.bak"
+          }
+        },
+        {
+          "id": "legendarysurvivaloverhaul-common-3.toml.bak",
+          "name": "legendarysurvivaloverhaul-common-3.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 32900,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common-3.toml.bak",
+            "MD5": "e41a7593679414ccac4d8638c2248714",
+            "path": "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common-3.toml.bak"
+          }
+        },
+        {
+          "id": "legendarysurvivaloverhaul-common-4.toml.bak",
+          "name": "legendarysurvivaloverhaul-common-4.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 16384,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common-4.toml.bak",
+            "MD5": "3e8abc8dc8b4bf3cfd058ac1c75bc1ac",
+            "path": "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common-4.toml.bak"
+          }
+        },
+        {
+          "id": "legendarysurvivaloverhaul-common.toml",
+          "name": "legendarysurvivaloverhaul-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 32900,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common.toml",
+            "MD5": "e41a7593679414ccac4d8638c2248714",
+            "path": "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common.toml"
+          }
+        },
+        {
+          "id": "lootr-client.toml",
+          "name": "lootr-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 243,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/lootr-client.toml",
+            "MD5": "516944f57737be53cf47cb4218bcb16f",
+            "path": "config/lootr-client.toml"
+          }
+        },
+        {
+          "id": "lootr-common.toml",
+          "name": "lootr-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6506,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/lootr-common.toml",
+            "MD5": "c02c011030469ebe0d0fad4fe1349ce6",
+            "path": "config/lootr-common.toml"
+          }
+        },
+        {
+          "id": "lrtactical-client.toml",
+          "name": "lrtactical-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/lrtactical-client.toml",
+            "MD5": "e3e3844f6b3114133fa82559aa1eb3b1",
+            "path": "config/lrtactical-client.toml"
+          }
+        },
+        {
+          "id": "lrtactical-common.toml",
+          "name": "lrtactical-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/lrtactical-common.toml",
+            "MD5": "1a5e1b95784f027a84fe2891e73bd0f6",
+            "path": "config/lrtactical-common.toml"
+          }
+        },
+        {
+          "id": "mafglib.json",
+          "name": "mafglib.json",
+          "type": "File",
+          "artifact": {
+            "size": 149,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/mafglib.json",
+            "MD5": "d8d1ab2efbaf17749531cb75dc7ad330",
+            "path": "config/mafglib.json"
+          }
+        },
+        {
+          "id": "moonlight-client.toml",
+          "name": "moonlight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1027,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/moonlight-client.toml",
+            "MD5": "12be1e89e835cca57c9017fa96f2d7e0",
+            "path": "config/moonlight-client.toml"
+          }
+        },
+        {
+          "id": "moonlight-common.toml",
+          "name": "moonlight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 649,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/moonlight-common.toml",
+            "MD5": "394c415bec94ed3e407e5c83d65a82f4",
+            "path": "config/moonlight-common.toml"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/MouseTweaks.cfg",
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "necronomicon.json5",
+          "name": "necronomicon.json5",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/necronomicon.json5",
+            "MD5": "f5d72523e51844112485d6c21b8d51c3",
+            "path": "config/necronomicon.json5"
+          }
+        },
+        {
+          "id": "nobz-common.toml",
+          "name": "nobz-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 208,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/nobz-common.toml",
+            "MD5": "da66abcbc366c1f899c71cb9a4dfcb23",
+            "path": "config/nobz-common.toml"
+          }
+        },
+        {
+          "id": "userconfig.json",
+          "name": "userconfig.json",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/presencefootsteps/userconfig.json",
+            "MD5": "bfe0471fd7f0784acdf8e204ac36a4e1",
+            "path": "config/presencefootsteps/userconfig.json"
+          }
+        },
+        {
+          "id": "refurbished_furniture.client.toml",
+          "name": "refurbished_furniture.client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1005,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/refurbished_furniture.client.toml",
+            "MD5": "59ddda1e30a6cd2b4d6436ca52df738d",
+            "path": "config/refurbished_furniture.client.toml"
+          }
+        },
+        {
+          "id": "refurbished_furniture.server.toml",
+          "name": "refurbished_furniture.server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7863,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/refurbished_furniture.server.toml",
+            "MD5": "b10fc9e7430d95e0d7e4c7dc8df42161",
+            "path": "config/refurbished_furniture.server.toml"
+          }
+        },
+        {
+          "id": "saros_road_blocks_mod-common.toml",
+          "name": "saros_road_blocks_mod-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 225,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/saros_road_blocks_mod-common.toml",
+            "MD5": "776abf07d892bbbe2bbf97eb3c2cda16",
+            "path": "config/saros_road_blocks_mod-common.toml"
+          }
+        },
+        {
+          "id": "saro´s_road_blocks_mod.json",
+          "name": "saro´s_road_blocks_mod.json",
+          "type": "File",
+          "artifact": {
+            "size": 20,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/saro%C2%B4s_road_blocks_mod.json",
+            "MD5": "cb6cfadd5e627714fc44d9b8d38a910f",
+            "path": "config/saro´s_road_blocks_mod.json"
+          }
+        },
+        {
+          "id": "blocks.toml",
+          "name": "blocks.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3544,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/subtle_effects/blocks.toml",
+            "MD5": "4ef21cce17dc9dc5c025ac3b32c8f50e",
+            "path": "config/subtle_effects/blocks.toml"
+          }
+        },
+        {
+          "id": "entities.toml",
+          "name": "entities.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2333,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/subtle_effects/entities.toml",
+            "MD5": "e096b5cdc90ffda39b7b040c9662f1a4",
+            "path": "config/subtle_effects/entities.toml"
+          }
+        },
+        {
+          "id": "environment.toml",
+          "name": "environment.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1741,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/subtle_effects/environment.toml",
+            "MD5": "6d376db2076e3dad2aaa5acbed709966",
+            "path": "config/subtle_effects/environment.toml"
+          }
+        },
+        {
+          "id": "general.toml",
+          "name": "general.toml",
+          "type": "File",
+          "artifact": {
+            "size": 823,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/subtle_effects/general.toml",
+            "MD5": "91994533fdca7fa44697e3916d0d912f",
+            "path": "config/subtle_effects/general.toml"
+          }
+        },
+        {
+          "id": "items.toml",
+          "name": "items.toml",
+          "type": "File",
+          "artifact": {
+            "size": 924,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/subtle_effects/items.toml",
+            "MD5": "5abc8e68b2422b4e2f2f05d60b803876",
+            "path": "config/subtle_effects/items.toml"
+          }
+        },
+        {
+          "id": "superbwarfare-client.toml",
+          "name": "superbwarfare-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2359,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/superbwarfare-client.toml",
+            "MD5": "dce90703371859117f546553c13456ff",
+            "path": "config/superbwarfare-client.toml"
+          }
+        },
+        {
+          "id": "superbwarfare-common.toml",
+          "name": "superbwarfare-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 309,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/superbwarfare-common.toml",
+            "MD5": "2307b0950f56c9d649ee4d8599372234",
+            "path": "config/superbwarfare-common.toml"
+          }
+        },
+        {
+          "id": "tacz-client.toml",
+          "name": "tacz-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2320,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/tacz-client.toml",
+            "MD5": "f378ea74ffc3ee91a26f0b177dca0720",
+            "path": "config/tacz-client.toml"
+          }
+        },
+        {
+          "id": "tacz-common.toml",
+          "name": "tacz-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2172,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/tacz-common.toml",
+            "MD5": "a0094e7d081be356dd5974c2bf6b5420",
+            "path": "config/tacz-common.toml"
+          }
+        },
+        {
+          "id": "trashcans-common.toml",
+          "name": "trashcans-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 84,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/trashcans-common.toml",
+            "MD5": "a219f1ffd4bc7d59a03a7de7f41174b5",
+            "path": "config/trashcans-common.toml"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/voicechat/username-cache.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4288,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "16658f413b160c711998fe993a5a0ee8",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2502,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "ab57bd932249f0fb22c1047da0b4d721",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-volumes.properties",
+          "name": "voicechat-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/voicechat/voicechat-volumes.properties",
+            "MD5": "de69dc36719c6c8b9ed3fa172530c307",
+            "path": "config/voicechat/voicechat-volumes.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.toml",
+          "name": "voicechat-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/voicechat-client.toml",
+            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
+            "path": "config/voicechat-client.toml"
+          }
+        },
+        {
+          "id": "wildernature.toml",
+          "name": "wildernature.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3211,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/wildernature.toml",
+            "MD5": "08db406c8ead683704718c4f787feddf",
+            "path": "config/wildernature.toml"
+          }
+        },
+        {
+          "id": ".unpack_finished",
+          "name": ".unpack_finished",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/.unpack_finished",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/.unpack_finished"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/af/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/af/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 4566,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ar/strings.json",
+            "MD5": "ccb6a591026d66e7e76c26ca6c0e532f",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ar/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ast/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ast/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/az/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/az/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ba/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ba/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 4057,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/be/strings.json",
+            "MD5": "31b3ec62109f6c0a119276e03241602e",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/be/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3965,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/bg/strings.json",
+            "MD5": "4da771800d50c6412f16cb8ecdf0ae51",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/bg/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/br-FR/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/br-FR/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32279,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/brb/strings.json",
+            "MD5": "a789705dfa83f3664bdebdb984ff8995",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/brb/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/bs/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/bs/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 554,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ca/strings.json",
+            "MD5": "53dffe2d3cbcc78a17fcc99596da24ee",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ca/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 33420,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/cs/strings.json",
+            "MD5": "4e8739531e0ee0327c77eea5eb7a46b8",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/cs/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/cy/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/cy/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3017,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/da/strings.json",
+            "MD5": "da14739631bb76fc23562b147db8166c",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/da/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/de/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/de/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/de-AT/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/de-AT/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34058,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/de-CH/strings.json",
+            "MD5": "2eb256b4751d75bace150bd0c696cb83",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/de-CH/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/el/strings.json",
+            "MD5": "7eb20ef5a335fdca3a659de45f0ee52d",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/el/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 642,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-AU/strings.json",
+            "MD5": "f40485c55a59db3256f5929332fed381",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-AU/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 712,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-CA/strings.json",
+            "MD5": "3aedf14afeaa8e7bf8f7a224a3e4eaf9",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-CA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-NZ/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-NZ/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1992,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-PT/strings.json",
+            "MD5": "cb0ae13506c8351b96540b2ed39b9f87",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-PT/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 17531,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-UD/strings.json",
+            "MD5": "ec2dedfc3914c50ce153e2defe4c8cee",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-UD/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/enp/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/enp/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1007,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/eo/strings.json",
+            "MD5": "a3652a01fb6c04defc5b7b23a3b6ceef",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/eo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36277,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-AR/strings.json",
+            "MD5": "ec411eb07566c8d9e97cd957400c999f",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-AR/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36404,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-CL/strings.json",
+            "MD5": "361c65a0897f30ce43f267309faa24c0",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-CL/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36501,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-ES/strings.json",
+            "MD5": "fc16f7aeeaf0ad834884201990f366ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-ES/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36501,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-MX/strings.json",
+            "MD5": "fc16f7aeeaf0ad834884201990f366ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-MX/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36501,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-UY/strings.json",
+            "MD5": "fc16f7aeeaf0ad834884201990f366ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-UY/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36132,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-VE/strings.json",
+            "MD5": "68844d44b838bde705ea5e1f7dfda57d",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-VE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 5508,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/et/strings.json",
+            "MD5": "b3fa73fded9362326cdb04bfb09a8592",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/et/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 8587,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/eu/strings.json",
+            "MD5": "c8c24b1f4753c192e77dda4627067a1b",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/eu/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fa/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fa/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1550,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fi/strings.json",
+            "MD5": "6b73b3641335c7c160d4f2dd99d3dafe",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fil/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fil/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fo/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 35723,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fr/strings.json",
+            "MD5": "ed223033212f5084996ddbf33a7b644e",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 35762,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fr-CA/strings.json",
+            "MD5": "bb67f2e1e52705781a8cf6133720be9a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fr-CA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fra-DE/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fra-DE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fy-NL/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fy-NL/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ga-IE/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ga-IE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/gd/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/gd/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/gl/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/gl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/got/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/got/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/gv/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/gv/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/haw/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/haw/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 71,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/he/strings.json",
+            "MD5": "4e832ed3e460ceb5ef38a22c8258c184",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/he/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hi/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hr/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 11082,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hu/strings.json",
+            "MD5": "d5ee1f965beff20fa76c0fc281c94f5c",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hu/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hy-AM/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hy-AM/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32493,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/id/strings.json",
+            "MD5": "49fab71647a81e4bc08cb9e7e51e73fc",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/id/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ido/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ido/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ig/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ig/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 279,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/is/strings.json",
+            "MD5": "794efc06106e4027561eb6d74028e887",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/is/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 33942,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/it/strings.json",
+            "MD5": "ffdb60409ff4f44fc8f954211acdc2a0",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/it/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 24452,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ja/strings.json",
+            "MD5": "cf9313d382146ffe9fbeebf8ad3e5203",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ja/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/jbo/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/jbo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ka/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ka/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kab/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kab/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kn/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kn/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 30621,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ko/strings.json",
+            "MD5": "3ed68c2d5389712bab212c78c603c0e4",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ko/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ksh/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ksh/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kw/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kw/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/la-LA/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/la-LA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 288,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lb/strings.json",
+            "MD5": "0a50b81a33bb67e591f09dbdaf31d908",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lb/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/li/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/li/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 22098,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lol/strings.json",
+            "MD5": "b3c4c53f4d5c5511dbd7317dad5dacf2",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lol/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lt/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lt/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lv/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lv/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mi/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 2954,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mn/strings.json",
+            "MD5": "b79b3cb1bc3f4ad2aaaa67dfd37c7214",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mn/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/moh/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/moh/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ms/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ms/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1759,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mt/strings.json",
+            "MD5": "0482cda50f0dcfe3a997d45a78c68992",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mt/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nds/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nds/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32279,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nl/strings.json",
+            "MD5": "a789705dfa83f3664bdebdb984ff8995",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32269,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nl-BE/strings.json",
+            "MD5": "48c7832eb4861f1637914f0e9997d118",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nl-BE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 29879,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nn-NO/strings.json",
+            "MD5": "19be849f76be7d235b23a8e40ff5d473",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nn-NO/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 29879,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/no/strings.json",
+            "MD5": "19be849f76be7d235b23a8e40ff5d473",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/no/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nuk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nuk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/oc/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/oc/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/oj/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/oj/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34723,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/pl/strings.json",
+            "MD5": "65d67e61bfbd296d2c459568ff81aa08",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/pl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 25690,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/pt-BR/strings.json",
+            "MD5": "11b68abf2041d0317ce70d4ea9a168b2",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/pt-BR/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 5382,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/pt-PT/strings.json",
+            "MD5": "71d75aef55ecc25968af12c6a7d6a797",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/pt-PT/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/qya-AA/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/qya-AA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1737,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ro/strings.json",
+            "MD5": "2e12734bc58538ee90f53cd6377640ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ro/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 44527,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ru/strings.json",
+            "MD5": "103d4a2db8f1e6d34293936bb5541cee",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ru/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 826,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/se/strings.json",
+            "MD5": "7b1936c9586549d0326c27071f429b85",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/se/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 10085,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sk/strings.json",
+            "MD5": "b2dc7d3c0f989c0a7f302b371828e7d9",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sl/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/so/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/so/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 6753,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sq/strings.json",
+            "MD5": "53d11b8f421eee6c8a1ca6d90d900407",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sq/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sr/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 31478,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/strings.json",
+            "MD5": "b459064336009ca1af4cbeb0b6f92bdc",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28182,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sv-SE/strings.json",
+            "MD5": "f948fde151ba8f554de572abf67d152f",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sv-SE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/swg/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/swg/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34723,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/szl/strings.json",
+            "MD5": "65d67e61bfbd296d2c459568ff81aa08",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/szl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ta/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ta/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/th/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/th/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tlh-AA/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tlh-AA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 17748,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tr/strings.json",
+            "MD5": "d03f015cffcfe4751f4d7a1ef6fe0582",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 106,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tt-RU/strings.json",
+            "MD5": "30e0b21e67369430a8ce336bec414c74",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tt-RU/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tzl/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tzl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/uk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/uk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/val-ES/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/val-ES/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/vec/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/vec/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 5975,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/vi/strings.json",
+            "MD5": "f97d02c4ef8f8f1d22067ec2baeef505",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/vi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/yi/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/yi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/yo/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/yo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 31940,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/zh-CN/strings.json",
+            "MD5": "78cdb55f7b0f706d9448a289bcfedd8b",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/zh-CN/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28368,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/zh-TW/strings.json",
+            "MD5": "543f18210face47b370fbbfe4697c8a6",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/zh-TW/strings.json"
+          }
+        },
+        {
+          "id": "worldedit.properties",
+          "name": "worldedit.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2542,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/worldedit/worldedit.properties",
+            "MD5": "b80b8cab34cd48b2bb71df54e5c84f86",
+            "path": "config/worldedit/worldedit.properties"
+          }
+        },
+        {
+          "id": "xaerominimap-common.txt",
+          "name": "xaerominimap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/xaerominimap-common.txt",
+            "MD5": "c4bb2d96ebd8182b307ef6b2fda27370",
+            "path": "config/xaerominimap-common.txt"
+          }
+        },
+        {
+          "id": "xaerominimap.txt",
+          "name": "xaerominimap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3640,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/xaerominimap.txt",
+            "MD5": "34daf6ed281f10d3aa9d1f916c51d7dc",
+            "path": "config/xaerominimap.txt"
+          }
+        },
+        {
+          "id": "xaerominimap_entities.json",
+          "name": "xaerominimap_entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/xaerominimap_entities.json",
+            "MD5": "f502ebf28f0487b5ed32affdc6041b85",
+            "path": "config/xaerominimap_entities.json"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/xaeropatreon.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "xaeroworldmap-common.txt",
+          "name": "xaeroworldmap-common.txt",
+          "type": "File",
+          "artifact": {
+            "size": 120,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/xaeroworldmap-common.txt",
+            "MD5": "5a2200d083554257d61384f2c486162b",
+            "path": "config/xaeroworldmap-common.txt"
+          }
+        },
+        {
+          "id": "xaeroworldmap.txt",
+          "name": "xaeroworldmap.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1218,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/xaeroworldmap.txt",
+            "MD5": "61668053aa4dc58507cde11ed376502c",
+            "path": "config/xaeroworldmap.txt"
+          }
+        },
+        {
+          "id": "ClientConfig.toml",
+          "name": "ClientConfig.toml",
+          "type": "File",
+          "artifact": {
+            "size": 111,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/zombieawareness/ClientConfig.toml",
+            "MD5": "1016ad236273e204477d7eed9ac03968",
+            "path": "config/zombieawareness/ClientConfig.toml"
+          }
+        },
+        {
+          "id": "Features.toml",
+          "name": "Features.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1605,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/zombieawareness/Features.toml",
+            "MD5": "beca3d8e30ba8de1aef3f8efe6b76781",
+            "path": "config/zombieawareness/Features.toml"
+          }
+        },
+        {
+          "id": "General.toml",
+          "name": "General.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3059,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/zombieawareness/General.toml",
+            "MD5": "bd546219f0439e369d0a60bf33a040ef",
+            "path": "config/zombieawareness/General.toml"
+          }
+        },
+        {
+          "id": "MobLists.toml",
+          "name": "MobLists.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1542,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/zombieawareness/MobLists.toml",
+            "MD5": "48bd24cc959ff22fde7598fe76bd484e",
+            "path": "config/zombieawareness/MobLists.toml"
+          }
+        },
+        {
+          "id": "PlayerRulesAndLists.toml",
+          "name": "PlayerRulesAndLists.toml",
+          "type": "File",
+          "artifact": {
+            "size": 412,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/config/zombieawareness/PlayerRulesAndLists.toml",
+            "MD5": "6412246ef0218904080766343e40553e",
+            "path": "config/zombieawareness/PlayerRulesAndLists.toml"
+          }
+        },
+        {
+          "id": "DeluxeMenus-1.14.1-Release.jar",
+          "name": "DeluxeMenus-1.14.1-Release.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4075217,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/mods/DeluxeMenus-1.14.1-Release.jar",
+            "MD5": "cd50b1ffbac63a4b50c74607af74828c",
+            "path": "mods/DeluxeMenus-1.14.1-Release.jar"
+          }
+        },
+        {
+          "id": "mebahel-zombie-horde-1.0.12-1.20.1.jar",
+          "name": "mebahel-zombie-horde-1.0.12-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 49879,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/mods/mebahel-zombie-horde-1.0.12-1.20.1.jar",
+            "MD5": "6b05285d2a7ae9fc1922f547838b5c4f",
+            "path": "mods/mebahel-zombie-horde-1.0.12-1.20.1.jar"
+          }
+        },
+        {
+          "id": "PlaceholderAPI-2.11.6.jar",
+          "name": "PlaceholderAPI-2.11.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 933131,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/mods/PlaceholderAPI-2.11.6.jar",
+            "MD5": "9975b000f56193c6ee3f11be0fbfa5ed",
+            "path": "mods/PlaceholderAPI-2.11.6.jar"
+          }
+        },
+        {
+          "id": "SubtleEffects-forge-1.20.1-1.12.1.jar",
+          "name": "SubtleEffects-forge-1.20.1-1.12.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3097715,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/mods/SubtleEffects-forge-1.20.1-1.12.1.jar",
+            "MD5": "a0d328a5e5648595900c7cc241e87011",
+            "path": "mods/SubtleEffects-forge-1.20.1-1.12.1.jar"
+          }
+        },
+        {
+          "id": "tacslings-1.0.0-forge-1.20.1.jar",
+          "name": "tacslings-1.0.0-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 38026,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/mods/tacslings-1.0.0-forge-1.20.1.jar",
+            "MD5": "fe5555170d4c19cd7f25e617c366478e",
+            "path": "mods/tacslings-1.0.0-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "Better-Leaves-9.3.zip",
+          "name": "Better-Leaves-9.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1335755,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/resourcepacks/Better-Leaves-9.3.zip",
+            "MD5": "a6d42aa8858bf566dbf2f69ce1dc4f32",
+            "path": "resourcepacks/Better-Leaves-9.3.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip",
+          "name": "ComplementaryUnbound_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456332,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/resourcepacks/ComplementaryUnbound_r5.5.1.zip",
+            "MD5": "576ef06da170458879f3a03e685d487a",
+            "path": "resourcepacks/ComplementaryUnbound_r5.5.1.zip"
+          }
+        },
+        {
+          "id": "eXalteZ.zip",
+          "name": "eXalteZ.zip",
+          "type": "File",
+          "artifact": {
+            "size": 194214397,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/resourcepacks/eXalteZ.zip",
+            "MD5": "b80002adbff67bd70c77ffa110e8a7f4",
+            "path": "resourcepacks/eXalteZ.zip"
+          }
+        },
+        {
+          "id": "TZP_1.20.1_2.7.zip",
+          "name": "TZP_1.20.1_2.7.zip",
+          "type": "File",
+          "artifact": {
+            "size": 14177090,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/resourcepacks/TZP_1.20.1_2.7.zip",
+            "MD5": "9c0fe8ecd9931b0121ab939425dd7b1e",
+            "path": "resourcepacks/TZP_1.20.1_2.7.zip"
+          }
+        },
+        {
+          "id": "LoesNightVision_0.0.6.zip.txt",
+          "name": "LoesNightVision_0.0.6.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 121,
+            "url": "http://localhost:8080/servers/prisonrp-1.20.1/files/shaderpacks/LoesNightVision_0.0.6.zip.txt",
+            "MD5": "1026a958a181d042d82cfc0af7c9cfc1",
+            "path": "shaderpacks/LoesNightVision_0.0.6.zip.txt"
           }
         }
       ]
