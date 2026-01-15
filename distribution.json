@@ -448,7 +448,7 @@
         "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
         "largeImageText": "forge-vanilla"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": true,
       "modules": [
         {
