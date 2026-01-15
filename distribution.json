@@ -438,7 +438,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7336,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar",
+            "url": "https://cr7.free.zk-web.fr/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar",
             "MD5": "80870abafff093c70f437073c4c754b0"
           }
         },
@@ -448,7 +448,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 51722248,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
             "MD5": "78270b771d833d9f2936a2bd95a7ec21"
           }
         },
@@ -458,7 +458,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 270915,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Animation_Overhaul-forge-1.20.x-1.3.1.jar",
+            "url": "https://cr7.free.zk-web.fr/Animation_Overhaul-forge-1.20.x-1.3.1.jar",
             "MD5": "0e016f6094a766eb5b82c0586343f46f"
           }
         },
@@ -468,7 +468,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 580602,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "url": "https://cr7.free.zk-web.fr/architectury-9.2.14-forge.jar",
             "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
           }
         },
@@ -478,7 +478,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 14689164,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/ashvehicle-4.0-8.7-SNAPSHOT.jar",
+            "url": "https://cr7.free.zk-web.fr/ashvehicle-4.0-8.7-SNAPSHOT.jar",
             "MD5": "f6ab05ee65f1442424153931805d6b13"
           }
         },
@@ -488,7 +488,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 124436,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Atlas%20Lib-1.20.1-1.1.12.jar",
+            "url": "https://cr7.free.zk-web.fr/Atlas%20Lib-1.20.1-1.1.12.jar",
             "MD5": "b63616d984991ee60d313938143eda3f"
           }
         },
@@ -498,7 +498,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10425,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/BadMobs-1.20.1-19.0.4.jar",
+            "url": "https://cr7.free.zk-web.fr/BadMobs-1.20.1-19.0.4.jar",
             "MD5": "c82edfea81516b7f8c9607ad5b2f75d6"
           }
         },
@@ -508,7 +508,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 34171,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/bettercampfires-2.0.0.jar",
+            "url": "https://cr7.free.zk-web.fr/bettercampfires-2.0.0.jar",
             "MD5": "c4f755c3cef370fcd10f7c0b894fb7ba"
           }
         },
@@ -518,7 +518,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 320854,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/chalk-1.20.1-1.6.6.jar",
+            "url": "https://cr7.free.zk-web.fr/chalk-1.20.1-1.6.6.jar",
             "MD5": "dd6d469c96e448da033e28e0bcc3a116"
           }
         },
@@ -528,7 +528,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1181413,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "url": "https://cr7.free.zk-web.fr/cloth-config-11.1.136-forge.jar",
             "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
           }
         },
@@ -538,7 +538,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 382083,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/comforts-forge-6.4.0+1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/comforts-forge-6.4.0%2B1.20.1.jar",
             "MD5": "a88fcc168de1a0f9b2ae4e7cbe8a8408"
           }
         },
@@ -548,7 +548,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 64187,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/coroutil-forge-1.20.1-1.3.7.jar",
+            "url": "https://cr7.free.zk-web.fr/coroutil-forge-1.20.1-1.3.7.jar",
             "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
           }
         },
@@ -558,7 +558,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 245618,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.21.jar",
+            "url": "https://cr7.free.zk-web.fr/corpse-forge-1.20.1-1.0.21.jar",
             "MD5": "346a9e592558c1fde772b39c10be4cdf"
           }
         },
@@ -568,7 +568,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1158417,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar",
             "MD5": "7aabe100af362d0df92d8ea1dbc2667b"
           }
         },
@@ -578,7 +578,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2099945,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Croptopia-1.20.1-FORGE-3.0.4.jar",
+            "url": "https://cr7.free.zk-web.fr/Croptopia-1.20.1-FORGE-3.0.4.jar",
             "MD5": "c7c4e6f0ff51507ad64544991dfc7454"
           }
         },
@@ -614,7 +614,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 398066,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/curios-forge-5.14.1+1.20.1.jar",
             "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
           }
         },
@@ -624,7 +624,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 182476,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/DiagonalFences-v8.1.5-1.20.1-Forge.jar",
+            "url": "https://cr7.free.zk-web.fr/DiagonalFences-v8.1.5-1.20.1-Forge.jar",
             "MD5": "29bc8833f5d9b1edcb32617e16a9ec5e"
           }
         },
@@ -634,7 +634,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 173567,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/DiagonalWalls-v8.0.4-1.20.1-Forge.jar",
+            "url": "https://cr7.free.zk-web.fr/DiagonalWalls-v8.0.4-1.20.1-Forge.jar",
             "MD5": "4f0de81465cddd09bf866eb38c1922f3"
           }
         },
@@ -644,7 +644,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 183094,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/DiagonalWindows-v8.1.5-1.20.1-Forge.jar",
+            "url": "https://cr7.free.zk-web.fr/DiagonalWindows-v8.1.5-1.20.1-Forge.jar",
             "MD5": "6a4ffa39c08847b280c66f0907b32668"
           }
         },
@@ -654,7 +654,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 9658884,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/doomsday_decoration-1.1.3-forge-1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/doomsday_decoration-1.1.3-forge-1.20.1.jar",
             "MD5": "780bd21f73ed1d2c901c00ade26b2f7d"
           }
         },
@@ -664,7 +664,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 49564,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/dynamiclights-1.20.1.2.jar",
+            "url": "https://cr7.free.zk-web.fr/dynamiclights-1.20.1.2.jar",
             "MD5": "8ddb1fdf345c919ea74e55c50aa39a55"
           }
         },
@@ -674,7 +674,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3739337,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/DynamicTrees-1.20.1-1.4.5.jar",
+            "url": "https://cr7.free.zk-web.fr/DynamicTrees-1.20.1-1.4.5.jar",
             "MD5": "ca1c133b6fafb0a278e9422d3fd65807"
           }
         },
@@ -684,7 +684,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 165237,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/endlessammo-1.2.0.jar",
+            "url": "https://cr7.free.zk-web.fr/endlessammo-1.2.0.jar",
             "MD5": "588905b1c9d28f4e158389d4d791ac75"
           }
         },
@@ -694,7 +694,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 756864,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/EpheroLib-1.20.1-FORGE-1.2.0.jar",
+            "url": "https://cr7.free.zk-web.fr/EpheroLib-1.20.1-FORGE-1.2.0.jar",
             "MD5": "f8b4d202f3fc4ffaf1bb8efd79f860bd"
           }
         },
@@ -704,7 +704,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 61346639,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Explosion-Overhaul-0.1.6.9-a%20Forge-1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/Explosion-Overhaul-0.1.6.9-a%20Forge-1.20.1.jar",
             "MD5": "e7e4898b276a2c4e49927889ae4d1ae6"
           }
         },
@@ -714,7 +714,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 67306,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/ezvcsurvival-forge-1.20.1-1.4.2.jar",
+            "url": "https://cr7.free.zk-web.fr/ezvcsurvival-forge-1.20.1-1.4.2.jar",
             "MD5": "24ce2cfce66a8265268f9624e61a5c78"
           }
         },
@@ -724,7 +724,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4025908,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
+            "url": "https://cr7.free.zk-web.fr/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
             "MD5": "542bd503ba871bb74f3ce229ebc45048"
           }
         },
@@ -734,7 +734,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3628603,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/fancymenu_forge_3.7.0_MC_1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/fancymenu_forge_3.7.0_MC_1.20.1.jar",
             "MD5": "365e76a8d99085a1ac942c2b46125508"
           }
         },
@@ -744,7 +744,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 231379,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/farmers_croptopia-1.20.1-3.0.0.jar",
+            "url": "https://cr7.free.zk-web.fr/farmers_croptopia-1.20.1-3.0.0.jar",
             "MD5": "6943d5630179611ca2243acf068a5223"
           }
         },
@@ -754,7 +754,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2978080,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.9.jar",
+            "url": "https://cr7.free.zk-web.fr/FarmersDelight-1.20.1-1.2.9.jar",
             "MD5": "71e177a98e0e6f399761ad00e978d177"
           }
         },
@@ -764,7 +764,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 997501,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Forgematica-0.1.13-mc1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/Forgematica-0.1.13-mc1.20.1.jar",
             "MD5": "8def10203e22c87e5820ecf2efd14184"
           }
         },
@@ -774,7 +774,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 309560,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/framework-forge-1.20.1-0.7.15.jar",
+            "url": "https://cr7.free.zk-web.fr/framework-forge-1.20.1-0.7.15.jar",
             "MD5": "135716c910b1036a6dd2f0fe0bc7b03d"
           }
         },
@@ -784,7 +784,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2275298,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/fzzy_config-0.7.2+1.20.1+forge.jar",
+            "url": "https://cr7.free.zk-web.fr/fzzy_config-0.7.2+1.20.1+forge.jar",
             "MD5": "d82c28e78e80f5e2fbbffe4a6fbb7a76"
           }
         },
@@ -794,7 +794,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1620814,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/g3project_doors-1.0.2-forge-1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/g3project_doors-1.0.2-forge-1.20.1.jar",
             "MD5": "552d52081224683b51cc2d26ee68e041"
           }
         },
@@ -804,7 +804,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1013210,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.7.4.jar",
+            "url": "https://cr7.free.zk-web.fr/geckolib-forge-1.20.1-4.7.4.jar",
             "MD5": "13892e4f925b758498e7db2f2235da08"
           }
         },
@@ -814,7 +814,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1598544,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/guccivuitton-1.20.1-0.2.2.jar",
+            "url": "https://cr7.free.zk-web.fr/guccivuitton-1.20.1-0.2.2.jar",
             "MD5": "778589f50a0c4b513d43aa605d5c0125"
           }
         },
@@ -824,7 +824,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 533823,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/gundurability-1.8.2-all.jar",
+            "url": "https://cr7.free.zk-web.fr/gundurability-1.8.2-all.jar",
             "MD5": "0f3f2fd56e460ec36bfaf02e2bf725d2"
           }
         },
@@ -834,7 +834,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3970305,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Gunfire%20Overhaul-0.0.8-a%20Forge-1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/Gunfire%20Overhaul-0.0.8-a%20Forge-1.20.1.jar",
             "MD5": "1710d9357335e43ee4d8cc1b6eb938fa"
           }
         },
@@ -844,7 +844,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2269048,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/immersive_weathering-1.20.1-2.0.5-forge.jar",
+            "url": "https://cr7.free.zk-web.fr/immersive_weathering-1.20.1-2.0.5-forge.jar",
             "MD5": "f424b363799c2fd29362c618c8a30bda"
           }
         },
@@ -854,7 +854,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1385600,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.112.jar",
+            "url": "https://cr7.free.zk-web.fr/jei-1.20.1-forge-15.20.0.112.jar",
             "MD5": "c899d5b549ace1e9fa46700c778c3809"
           }
         },
@@ -864,7 +864,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 17565,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/jsconf-1.1.1.jar",
+            "url": "https://cr7.free.zk-web.fr/jsconf-1.1.1.jar",
             "MD5": "9b12812822abe6e0279f1f8baea16c70"
           }
         },
@@ -874,7 +874,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 276231,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/JustEnoughResources-1.20.1-1.4.0.247.jar",
+            "url": "https://cr7.free.zk-web.fr/JustEnoughResources-1.20.1-1.4.0.247.jar",
             "MD5": "bd7166a2e9361ef5e8b616edfa2028f4"
           }
         },
@@ -884,7 +884,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 625185,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
             "MD5": "d69107c593e361e1b7b96733250bd098"
           }
         },
@@ -894,7 +894,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7193768,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
+            "url": "https://cr7.free.zk-web.fr/kotlinforforge-4.11.0-all.jar",
             "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
           }
         },
@@ -904,7 +904,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3743687,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/legendarysurvivaloverhaul-1.20.1-2.3.22.1.jar",
+            "url": "https://cr7.free.zk-web.fr/legendarysurvivaloverhaul-1.20.1-2.3.22.1.jar",
             "MD5": "b1019fb638cc59582f611da20c258e55"
           }
         },
@@ -914,7 +914,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2102995,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/letsdo-wildernature-forge-1.0.6.jar",
+            "url": "https://cr7.free.zk-web.fr/letsdo-wildernature-forge-1.0.6.jar",
             "MD5": "fd08892b42440837734423d70592ecdd"
           }
         },
@@ -924,7 +924,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 460882,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/lootr-forge-1.20-0.7.35.93.jar",
+            "url": "https://cr7.free.zk-web.fr/lootr-forge-1.20-0.7.35.93.jar",
             "MD5": "2d5374b809d9ec1d7700a194b2fd0dd5"
           }
         },
@@ -934,7 +934,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 42492650,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/lradd-1.20.1-0.3.0.jar",
+            "url": "https://cr7.free.zk-web.fr/lradd-1.20.1-0.3.0.jar",
             "MD5": "a3710d72c75c24b8235142061f9e217c"
           }
         },
@@ -944,7 +944,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5193935,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/lrtactical-1.20.1-0.3.0.jar",
+            "url": "https://cr7.free.zk-web.fr/lrtactical-1.20.1-0.3.0.jar",
             "MD5": "73f94347bbc9050c0a28cb9aff3c3d26"
           }
         },
@@ -954,7 +954,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 521709,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/MaFgLib-0.1.14-mc1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/MaFgLib-0.1.14-mc1.20.1.jar",
             "MD5": "739a08ec65e3c5cdd5bfc64adc90947d"
           }
         },
@@ -964,7 +964,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 534925,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/marbledsfirstaid-1.20.1forge-1.2.0.0.jar",
+            "url": "https://cr7.free.zk-web.fr/marbledsfirstaid-1.20.1forge-1.2.0.0.jar",
             "MD5": "b51b5bc8686ebc95e83312f7efadc923"
           }
         },
@@ -974,7 +974,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 33775172,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/maxstuff-1.8.1.jar",
+            "url": "https://cr7.free.zk-web.fr/maxstuff-1.8.1.jar",
             "MD5": "8452b7b2fc125e8e7f6159396ebec9e7"
           }
         },
@@ -984,7 +984,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 121205,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/mcore-1.20.1-1.0.3.0.jar",
+            "url": "https://cr7.free.zk-web.fr/mcore-1.20.1-1.0.3.0.jar",
             "MD5": "da142d7a183dae31812590b95173915f"
           }
         },
@@ -994,7 +994,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2579133,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/MCSP-1.20.1-V1.0.5.jar",
+            "url": "https://cr7.free.zk-web.fr/MCSP-1.20.1-V1.0.5.jar",
             "MD5": "b0e8996dc1024a0c2ad3c86966b8cc56"
           }
         },
@@ -1004,7 +1004,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 540915,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/mcw-stairs-1.0.1-1.20.1forge.jar",
+            "url": "https://cr7.free.zk-web.fr/mcw-stairs-1.0.1-1.20.1forge.jar",
             "MD5": "ceab72622060c85e4fbb47118f0b76e9"
           }
         },
@@ -1014,7 +1014,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 37178,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "url": "https://cr7.free.zk-web.fr/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
             "MD5": "6b528d368f7fcbf737df28f2457cdec6"
           }
         },
@@ -1024,7 +1024,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1332304,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/moonlight-1.20-2.16.10-forge.jar",
+            "url": "https://cr7.free.zk-web.fr/moonlight-1.20-2.16.10-forge.jar",
             "MD5": "0641e7fdc055c448da668274730b9087"
           }
         },
@@ -1034,7 +1034,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 76237,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "url": "https://cr7.free.zk-web.fr/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
             "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
           }
         },
@@ -1044,7 +1044,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 498403,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/MutantsZombies-1.1.0-Forge-mc1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/MutantsZombies-1.1.0-Forge-mc1.20.1.jar",
             "MD5": "ac08d3672dbe26a14fad010c449be1da"
           }
         },
@@ -1054,7 +1054,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 33251,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Necronomicon-Forge-1.6.0+1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/Necronomicon-Forge-1.6.0+1.20.1.jar",
             "MD5": "a1f1433ea551925436e6b170ac2ff619"
           }
         },
@@ -1064,7 +1064,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 8075,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/nobz-1.2.jar",
+            "url": "https://cr7.free.zk-web.fr/nobz-1.2.jar",
             "MD5": "c797d150431b6fc281f8c5b9dc0b5646"
           }
         },
@@ -1074,7 +1074,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 864398,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+            "url": "https://cr7.free.zk-web.fr/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
             "MD5": "019a3540059282663ce2ed634dbfd09c"
           }
         },
@@ -1084,7 +1084,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 282474,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
+            "url": "https://cr7.free.zk-web.fr/Placebo-1.20.1-8.6.3.jar",
             "MD5": "13133ab9989e8474931cd7a86bd19cc5"
           }
         },
@@ -1094,7 +1094,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7080698,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+            "url": "https://cr7.free.zk-web.fr/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
             "MD5": "e42d774ced61f8c62c58f3111aa5e3f5"
           }
         },
@@ -1104,7 +1104,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1342987,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+            "url": "https://cr7.free.zk-web.fr/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
             "MD5": "19f23e3040eaadc7c30ae38f5a3dec68"
           }
         },
@@ -1114,7 +1114,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6686700,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/refurbished_furniture-forge-1.20.1-1.0.14.jar",
+            "url": "https://cr7.free.zk-web.fr/refurbished_furniture-forge-1.20.1-1.0.14.jar",
             "MD5": "cf49bb5867f7d060b82fc143e2ca0201"
           }
         },
@@ -1124,7 +1124,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1759619,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Saros-Road-Blocks-Mod-1.20.1-3.9.jar",
+            "url": "https://cr7.free.zk-web.fr/Saros-Road-Blocks-Mod-1.20.1-3.9.jar",
             "MD5": "2979867cdcbc712862c4583723ad2522"
           }
         },
@@ -1134,7 +1134,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 77732,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Searchables-forge-1.20.1-1.0.3.jar",
+            "url": "https://cr7.free.zk-web.fr/Searchables-forge-1.20.1-1.0.3.jar",
             "MD5": "9f5418e9c08c18a375ef42fada4bcef2"
           }
         },
@@ -1157,7 +1157,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 555625,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/simplylight-1.20.1-1.4.6-build.50.jar",
+            "url": "https://cr7.free.zk-web.fr/simplylight-1.20.1-1.4.6-build.50.jar",
             "MD5": "ce3cb1633a11c82613b547dff686aee8"
           }
         },
@@ -1167,7 +1167,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 544228,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/simplytents-1.0.0-forge-1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/simplytents-1.0.0-forge-1.20.1.jar",
             "MD5": "3b0d1766fd7c92c1ade868c6184ed739"
           }
         },
@@ -1177,7 +1177,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 23552579,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/superbwarfare-1.20.1-0.8.7-final-d6ea9a72b.jar",
+            "url": "https://cr7.free.zk-web.fr/superbwarfare-1.20.1-0.8.7-final-d6ea9a72b.jar",
             "MD5": "78d611f03f839cf511a2533528d0e8df"
           }
         },
@@ -1187,7 +1187,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 206584,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+            "url": "https://cr7.free.zk-web.fr/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
             "MD5": "cbece61946d4e059e90806c19dd66082"
           }
         },
@@ -1197,7 +1197,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 515362,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar",
             "MD5": "6559d43627646f16fbe02de085e98d5c"
           }
         },
@@ -1207,7 +1207,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1691940,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/survival_instinct-1.0.1-forge-1.20.1.jar",
+            "url": "https://cr7.free.zk-web.fr/survival_instinct-1.0.1-forge-1.20.1.jar",
             "MD5": "54a68ad552f1f5b03dc9b2a6f1b3840d"
           }
         },
@@ -1217,7 +1217,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 9460,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/tacticalmovement-1.0.0.jar",
+            "url": "https://cr7.free.zk-web.fr/tacticalmovement-1.0.0.jar",
             "MD5": "17a5d8c5b188ce9d90c8e002ab4740f5"
           }
         },
@@ -1227,7 +1227,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 47826468,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/tacz-1.20.1-1.1.6-hotfix.jar",
+            "url": "https://cr7.free.zk-web.fr/tacz-1.20.1-1.1.6-hotfix.jar",
             "MD5": "51636447584a75f8d2db2fb930d110b1"
           }
         },
@@ -1237,7 +1237,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 586378,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/The-Hordes-1.20.1-1.5.4c.jar",
+            "url": "https://cr7.free.zk-web.fr/The-Hordes-1.20.1-1.5.4c.jar",
             "MD5": "65f9e9134a49fa0d942526d9460f61c5"
           }
         },
@@ -1247,7 +1247,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 158164,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/trashcans-1.0.18b-forge-mc1.20.jar",
+            "url": "https://cr7.free.zk-web.fr/trashcans-1.0.18b-forge-mc1.20.jar",
             "MD5": "96b30739859465a3a3f8d1d4a6c9d48c"
           }
         },
@@ -1257,7 +1257,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 8646989,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.35.jar",
+            "url": "https://cr7.free.zk-web.fr/voicechat-forge-1.20.1-2.5.35.jar",
             "MD5": "35334e72794c1b612bb9b2290dd8a27c"
           }
         },
@@ -1267,7 +1267,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 11084098,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/vvp-0.1.7.jar",
+            "url": "https://cr7.free.zk-web.fr/vvp-0.1.7.jar",
             "MD5": "6211fffd716c7b6e60c032727b17dd5b"
           }
         },
@@ -1277,7 +1277,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1703964,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/warborn-1.20.1-2.3.3.jar",
+            "url": "https://cr7.free.zk-web.fr/warborn-1.20.1-2.3.3.jar",
             "MD5": "464d65539774d41e654323716db0a071"
           }
         },
@@ -1287,7 +1287,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5825402,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar",
+            "url": "https://cr7.free.zk-web.fr/worldedit-mod-7.2.15.jar",
             "MD5": "bd0e7cff7896348faab92e43300d0639"
           }
         },
@@ -1297,7 +1297,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1723029,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/Xaeros_Minimap_25.2.10_Forge_1.20.jar",
+            "url": "https://cr7.free.zk-web.fr/Xaeros_Minimap_25.2.10_Forge_1.20.jar",
             "MD5": "2b2bfaf3a1872b83c57aaa51c73f10d9"
           }
         },
@@ -1307,7 +1307,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 960799,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/XaerosWorldMap_1.39.12_Forge_1.20.jar",
+            "url": "https://cr7.free.zk-web.fr/XaerosWorldMap_1.39.12_Forge_1.20.jar",
             "MD5": "002d9a661be7e982db177d7b0fc8d49e"
           }
         },
@@ -1317,7 +1317,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 291139,
-            "url": "http://localhost:8080/servers/prisonrp-1.20.1/forgemods/required/zombieawareness-1.20.1-1.13.1.jar",
+            "url": "https://cr7.free.zk-web.fr/zombieawareness-1.20.1-1.13.1.jar",
             "MD5": "bf52632df04fceed82ad7073b8d14240"
           }
         },
