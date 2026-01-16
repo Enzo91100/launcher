@@ -11,7 +11,7 @@
       "id": "LoupGarou-1.15.1",
       "name": "LoupGarou (Minecraft 1.15.1)",
       "description": "LoupGarou Running Minecraft 1.15.1",
-      "icon": null,
+      "icon": "https://raw.githubusercontent.com/Enzo91100/launcher/refs/heads/main/7ceb2d43d78b99a6ae52eef2839f239c.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.15.1",
