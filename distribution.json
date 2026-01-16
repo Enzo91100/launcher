@@ -13,7 +13,7 @@
       "description": "LoupGarou Running Minecraft 1.15.1",
       "icon": null,
       "version": "1.0.0",
-      "address": "binksbinks.falixsrv.me",
+      "address": "localhost:25565",
       "minecraftVersion": "1.15.1",
       "discord": {
         "shortId": "Loup Garou",
