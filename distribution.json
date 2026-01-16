@@ -8,12 +8,12 @@
   },
   "servers": [
     {
-      "id": "LoupGarou-1.15.1",
-      "name": "LoupGarou (Minecraft 1.15.1)",
-      "description": "LoupGarou Running Minecraft 1.15.1",
+      "id": "loupgarou-1.15.1",
+      "name": "loupgarou (Minecraft 1.15.1)",
+      "description": "loupgarou Running Minecraft 1.15.1",
       "icon": null,
-      "version": "1.0.0",
-      "address": "binksbinks.falixsrv.me",
+      "version": "",
+      "address": "localhost:25565",
       "minecraftVersion": "1.15.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
