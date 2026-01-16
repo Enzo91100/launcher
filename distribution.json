@@ -4,7 +4,7 @@
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "smallImageKey": "https://raw.githubusercontent.com/Enzo91100/launcher/refs/heads/main/7ceb2d43d78b99a6ae52eef2839f239c.png"
   },
   "servers": [
     {
