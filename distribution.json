@@ -1,11 +1,6 @@
 {
   "version": "1.0.0",
   "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
-  "discord": {
-    "clientId": "1086936373057040395",
-    "smallImageText": "zzz",
-    "smallImageKey": "https://raw.githubusercontent.com/Enzo91100/launcher/refs/heads/main/7ceb2d43d78b99a6ae52eef2839f239c.png"
-  },
   "servers": [
     {
       "id": "LoupGarou-1.15.1",
@@ -15,11 +10,6 @@
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.15.1",
-      "discord": {
-        "shortId": "Loup Garou",
-        "largeImageText": "forge-vanilla",
-        "largeImageKey": "https://raw.githubusercontent.com/Enzo91100/launcher/refs/heads/main/7ceb2d43d78b99a6ae52eef2839f239c.png"
-      },
       "mainServer": false,
       "autoconnect": false,
       "modules": []
